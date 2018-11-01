@@ -1,0 +1,69 @@
+\section{Planned work: Estimators}
+
+Reconstructing the lensing mass distribution from observations
+(and making maps, or measuring
+clustering statistics or object properties directly) requires  an
+estimator. 
+A quadratic lensing estimator (e.g., \cite{okamoto}) for the forest or for LIA
+is sensitive to variations in the power spectrum in  different 
+regions of the sky.  These spatial variations result in
+correlations in Fourier modes (or $C_\ell$'s) that would not
+exist otherwise. 
+In our proposed work, we will further develop estimators
+of the type that have been applied to the CMB but specialized to our
+new tracers (for example the discrete sightlines of the \lya\ forest).
+
+\subsection{Estimators for Lensing anisotropy of galaxy clustering}
+
+In the case of LIA we will be concentrating first on detecting and
+measuring the lensing signal of stacked galaxy clusters..
+The simplest estimator to try first is a parametric model with,
+e.g., the mass and concentration of the clusters set as free
+parameters. The data points will be   $N_{\rm pix}^2/2$
+estimates of $\hat w$, and these
+can be used to constrain the parameters.
+We will also explore maximum likelihood methods
+that do not rely on the small angle approximation.
+
+\subsection{Estimators for \lya\ forest lensing}
+In C18 it was found that the standard quadratic estimator works 
+very well on gridded spectral \lya\ forest data. As real
+galaxies and quasars do not exist on a grid, the challenge is
+to develop an estimator that works on a random discrete set of sightlines.
+Several different approaches can be taken, the simplest being an interpolation
+of the data onto a finely space uniform grid. We have experimented with this
+approach, finding that it could be useful in conjunction with the detailed
+simulation tests proposed above to establish how interpolation errors 
+propagate. However, the PI, together with collaborator Ben Metcalf has 
+developed a quadratic estimator which uses non-gridded data 
+(\cite{metcalf17}). Without a grid, FFT methods are not available to 
+speed up the estimator, but inversion of large matrices is required. At 
+present tests on small (million pixel) simulations have shown success and
+during this proposal we will improve the code and scale up to the capabilities
+needed to process full mock and observational datasets.
+
+\subsection{Mitigating systematics: the road to precision cosmology}
+
+Our simulation tests with realistic sources and lens fields will reveal the extent to which non linearity and non Gaussianity
+affect the lens reconstructions. We will seek to develop methods to mitigate these effects. For example, in CMB lensing \cite{lewis16} have shown how the effects of non Gaussian deflections from post-Born corrections and non-linear structure growth can be can be severely reduced by Gaussian smoothing. Also for CMB lensing, \cite{bohm18} have shown that results from raytraced simulations can be accounted for and corrected using  analytic results (\cite{bohm16}). Although in the CMB these issues are at the $\sim0.3 \%$ level in the power spectrum, they will be a more significant issue with our lower redshift lensing tracers and should be addressed as we seek to develop them as new tools for precision cosmology. We will use the CMB lensing work as a guide to push the precision of our work to below the level of the simulated systematics.
+
+\subsection{Cross-correlation and validation}
+As our lensing techniques are new, an important part of our studies will
+be checking results against relevant prior data.
+Measurement of cross-correlations with foreground galaxies or CMB
+lensing maps are likely to consistute the first proof that our
+techniques are valid.
+ In the case of forest lensing,
+foreground galaxy maps are available for large areas of the sky from the
+SDSS/BOSS and eBOSS surveys. We can use the distribution of galaxies 
+(LRGs and ELGs from eBOSS) with redshifts,
+weighted by the lensing kernel to make a predicted lensing
+convergence  map. We will
+ cross-correlate this map with convergence estimated from the forest. 
+We will test this cross-correlation with our mock catalogs, and use
+them to quantify systematic errors. In the case of LIA galaxy
+clusters selected from photometry itself play the largest role,
+and again the mocks will be important to bracket uncertainties 
+(such as the role of baryonic physics  \cite{zentner2013}).
+
+

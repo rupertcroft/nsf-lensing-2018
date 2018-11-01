@@ -1,0 +1,18 @@
+
+\def\thebibliography#1{\section*{REFERENCES}
+ \addcontentsline{toc}{section}{REFERENCES}
+ \list{}{\usecounter{dummy}%
+         \labelwidth\z@
+         \leftmargin 1.5em
+         \itemsep \z@
+         \itemindent-\leftmargin}
+ \reset@font\small
+ \parindent\z@
+ \parskip\z@ plus .1pt\relax
+ \def\newblock{\hskip .11em plus .33em minus .07em}
+ \sloppy\clubpenalty4000\widowpenalty4000
+ \sfcode`\.=1000\relax
+}
+\let\endthebibliography=\endlist
+\def\@biblabel#1{\hspace*{\labelsep}[#1]}
+

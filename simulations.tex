@@ -1,0 +1,226 @@
+\section{Planned work: Simulations and mock catalogs}\label{sec:sim}
+
+We will carry out a significant portion of our research using
+ simulations and mock catalogs.
+For the forest lensing we will build on our successful
+linear theory tests (C18). For LIA
+we propose to carry out detailed studies of the feasibility of
+detection of the effect. First, we will refine the estimate 
+in \S\ref{sec:lia} by accounting for: cosmic variance as an
+additional source of noise (although this should not have too large
+of an impact on the small scales of interest), more realistic cluster
+profiles including mis-centering, the impact of magnification, the
+validity of the Taylor expansion, optimal angular binning, and
+photometric red shift errors and binning.
+
+
+
+Unlike CMB lensing, the assumption of a initially Gaussian {\it source}
+field is not a good one for our new weak lensing tracers. 
+The foreground lens density field is also
+at lower redshift that in the CMB case, meaning that the {\it lens}
+density fluctuations will also be further into the non-linear regime. Mock
+observations that include these non-linearities are therefore crucial
+to test our methods. We will be working with a set of already run simulations
+as well as carrying out some new ones to set up a comprehensive set
+of realistic tests of lensing reconstruction and measurement. In this
+section of the proposal we outline  how we plan to do this, starting
+with the raw N-body and hydro simulations. In Table \ref{tab_runs} we list
+some of the privately run simulations available to the project. We will
+also make use of public simulation datasets such as \cite{giocoli2016}
+ to supplement them.
+
+
+
+
+\begin{table}[h]
+\begin{center}
+\footnotesize
+\begin{tabular}{cccccc}
+
+\hline\hline
+  Run & N$_{\rm part}$   &   L$_{\rm box}$ &$\epsilon$&  $z_f$ & Physics \\
+& & (Mpc/h) & (kpc/h)& & \\
+  \hline
+%  {\bf Completed} & & &  &  & \\
+%  DM2448 & $2448^3$ & 400 & 6.5&  0.5 & Dark Matter\\
+%  IGM 4096 & $2\times 4096^3$ & 400 & 3.25  & 2.0 & Dark Matter, Gas, Stars\\
+%  IGM 2048 & $2\times 2048^3$ & 400 & 6.5 & 2.0 & Dark Matter, Gas, Stars\\
+  {\it MassiveBlack-II} & $2\times 1792^3$ & 100 & 1.85 & 0 & DM, Gas, Stars, 
+Blackholes\\
+ {\it MassiveBlack-II  DM} & $2\times 1792^3$ & 100 & 1.85 & 0 & DM (complete)\\
+\hline
+  {\it Lyman-alpha} & $2\times 4096^3$ & 400 & 10.0&  1.5 & DM, Gas, 
+Stars \\
+%{\bf In Progress} & & & & & \\
+{\it BlueTides DM} & $2\times 1758^3$ & 400 & 6.00 & 0 & DM  \\
+{\it Zhu et al. DM} & $1024^3$ & 1000 & 10.00 & 0 & DM, 20 realizations  \\
+\hline\\
+\end{tabular}
+\normalsize
+\end{center}
+\vspace{-1cm}
+\caption{{\bf N-body Simulations available to this project.} 
+  The columns denote the runs, the number of particles
+  N$_{\rm part}$, the size of the simulation box  L$_{\rm box}$, the
+  gravitational softening length $\epsilon$ and the final redshift 
+to which it was run $z_f$. The
+  last column denotes the physics involved. }
+\label{tab_runs}
+\end{table}
+\vspace{-0.5cm}
+
+
+\subsection{\lya\ source field}
+
+Relevant \lya\ forest pixels for lensing will be mostly between 
+ redshifts $z=2-3.5$, with the lower end of the range due to the atmospheric 
+cutoff and the upper due to the decreasing availability of bright 
+quasars and galaxies. Simulating the forest  involves resolving scales as
+small as the pressure smoothing scale ($\sim 100 \kpc$, \cite{peeples10}) while
+incorporating large scale modes on scales of tens of $\hmpc$.
+We will model the forest using the following
+three techniques which have different
+strengths.
+
+\subsubsection{Lognormal models}
+In order to cover the largest volume, and make contiguous source
+fields with diameters spanning large fractions of the sky (relevant for
+surveys such as eBOSS and DESI), we will use lognormally transformed
+linear density fields. This technique was introduced by \cite{bi1997}
+and has been shown to be a good appproximation to full hydrodynamic
+simulations for purposes such as measuring baryonic acoustic oscillations
+\cite{legoff}. Large-scale velocity fields will be included via the
+Zeldovich approximation, and thermal broadening added via a temperature
+density relation \cite{keating17}.
+
+\subsubsection{Hydrodynamic simulations}
+Full hydrodynamic simulations will be useful to capture the effect of
+small scale density fluctuations.
+ Although volumes are relatively smaller
+than what can be achieved with lognormal fields, the differences stemming
+from
+full simulation  in
+lensing measurments from individual small areas will be measured without
+cosmic variance by comparing the hydro simulations directly to lognormal
+fields with the same random phases. In 
+The PI has run  a $400\hmpc$ simulation 
+(used in \cite{cisewski}) 
+ with 
+the Gadget-3 SPH code with full hydrodynamics, and this will be available to
+this project. The volume spans 5.5 degrees at $z=2.5$ and this is enough
+to simulate surveys several times larger than CLAMATO. Other
+simulations are available with additional physics activated (see Table 
+\ref{tab_runs})
+including star formation and black holes.
+
+\subsubsection{Combined models}
+By mapping sections of hydrodynamic simulations onto a much larger
+dark matter simulation (or even linear density fields) it is possible
+to accurately reproduce many of the features of the \lya\ forest
+in a larger hydrodynamic simulation. This
+technique was used successfully by \cite{croft2004} and developed in
+detail by \cite{peirani2014}. We have all the relevant 
+simulation ingredients and will adopt this approch.
+
+\subsection{\lya\ forest source Mocks}
+\lya\ forest spectra will be made by integrating through the
+neutral hydrogen distribution ( in SPH kernels in the case of the hydro
+simulations)
+along each sightline and then convolving with the line-of-sight velocities
+and applying thermal broadening \citep{hernquist1996}.
+ In order to make realistic
+mock catalogs we will use the relevant observational parameters
+of different datasets from Table\ref{obs}. Quasar and galaxy sightlines will
+be picked randomly with the correct mean spacing. In our test so far
+(C18) we have used a grid of background sources, which is obviously
+unrealistic, and so an important part in our proposed work is to abandon
+that simplification. Apart from survey geometry we will investigate
+the role of uncertainties in  quasar and galaxy continuua. We will 
+apply continua based on published principal components
+of quasar spectra \citep{leedr9} and population synthesis models
+to the mocks, before fitting them using low order polynomials. This will
+enable us to estimate the covariance between pixels on large-scales which
+are due to continuum fitting.
+
+
+\subsection{Galaxy sources}
+\label{galaxysourcesims}
+In our study of LIA it is important to resolve large-scale structure
+in the galaxy distribution but galaxy shapes themselves are not needed.
+A number of suitable N-body simulations are therefore 
+available to use, for example
+those used in \cite{zhu2017} (see Table \ref{tab_runs}, and we will use a HOD 
+approach (e.g,) to populate the dark matter distribution with galaxies.
+Although angular clustering will be measured, we will make use of the 
+three dimensional information in the simulations to assign photometric
+redshifts and model systematic uncertainties related to their use in 
+the presence of errors, catastrophic and otherwise \citep{hearin2010}.
+Hydrodynamic simulations of small volumes are also available 
+(Table \ref{tab_runs}) and
+will be used as the source fields in lensing simulations of individual
+galaxy clusters in order to investigate baryon physics effects.
+
+
+\subsection{Simulated lenses}
+In situations such as forest lensing with widely spaced sightlines,
+the 
+the lensing field will be detected only on large angular scales 
+where the matter structure responsible for the lensing is linear to a
+reasonably good approximation. Our lens simulations (e.g. C18)
+have started from the simplest case, a Gaussian random field.   
+We create a realization of the lensing potential by generating random 
+Gaussian  distributed Fourier modes with the power spectrum expected 
+in the same cosmology
+ used to simulated source fields.   The deflection is found by taking the 
+gradient of the potential using an FFT.  Points on the source planes 
+are then displaced by the deflection to get the lensed image. 
+In the case of the forest, the deflection is applied to individual pixels
+(see Figure 1) in the forest source simulations
+ and for LIA to galaxies described in Section \ref{galaxysourcesims}
+We will start with a single lens plane approximation for the forest lensing
+case based on the linear fields. For the LIA with a cluster lens, the 
+simplest initial simulations will be of a single spherically  symmetric lens.
+
+In order to capture the true non-linearity inherent in the lens field,
+ we will then move to using ray-traced  Nbody simulations. We have chosen  
+GLAMER   \cite{metcalf2014} to do this (collaborator Ben Metcalf is an 
+author of the code). It incorporates adaptive mesh refinement for
+efficient choice of ray shooting. The deflection and beam distortions 
+(convergence and shear) are calculated by modified tree algorithm when haloes,
+ point masses or particles are used and by fast Fourier transform when 
+mass maps are used. The combination of these methods allow for a very 
+large dynamical range, so that accurate  maps will be made
+spanning several degrees and covering large-scale
+structure in the lensing matter distribution. Multiple lens planes can be
+handled by GLAMER \cite{petkova2014}, and the distribution of matter
+will be taken from the simulations detailed in Table \ref{tab_runs}. A suite 
+of publicly available raytraced simulations (the Multi Dark Lens Simulations,
+\cite{giocoli2016}) has been carried out and will also be used for 
+this project. These include over 150 realizations of $\sim 10$ square
+degree fields carried out using fully sampled lightcone raytracing
+with 24 lens planes each. The simulations therefore cover both the
+redshift $z\sim1$ lenses relevant for forest lensing and the lower 
+redshift needed for LIA in the same simulation. They can be used to
+test both, and in principle look at the overlap in lensing reconstruction
+(and lensing kernels) for the two methods. 
+
+
+\subsection{Full mocks}
+
+Given the simulated sources and lens described above, we will construct
+full mock datasets where we mimic the geometry and noise properties
+of particular datasets. These datasets are detailed below in Section 6.
+We note that because some of them are extremely large in
+angular extent (e.g. eBOSS and DES), we will make use of a combination of
+small high fidelity mocks of sections (for example individual 
+galaxy clusters) and others larger areas generated using the approximate 
+techniques mentioned above.
+We will also incorporate addition levels of
+complexity and potential sources of systematic
+error, treating the addition of each in turn. For both types of
+lensing we consider, magnification will be important, as both source
+galaxies and background quasars will be selected preferentially when
+they are lensed. The effects of photometric redshift uncertainties
+could also  be added 
+at this stage.   

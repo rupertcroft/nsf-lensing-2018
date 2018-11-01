@@ -1,0 +1,154 @@
+\documentclass[12pt]{article}
+
+\usepackage{epsfig}
+\usepackage{comment}
+\usepackage{natbib}
+\usepackage{natbibmnfix}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{subfig}
+\usepackage{bmpsize}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{breqn}
+
+\newcounter{dummy}
+\def\@biblabel#1{\hspace*{\labelsep}[#1]}
+
+\newcommand{\df}{\delta_{\rm F}}
+
+
+\def\lya{Ly$\alpha$}
+\def\lyb{Ly$\beta$}
+\def\etal{{\rm et~al.\ }}
+\def\hmpc{\;h^{-1}{\rm Mpc}}
+\def\hgpc{\;h^{-1}{\rm Gpc}}
+\def\hkpc{h^{-1}{\rm kpc}}
+\def\kpc{{\rm kpc}}
+\def\kms{{\rm \;km\;s^{-1}}}
+\def\shear{\langle \gamma^{2} (\theta) \rangle}
+\newcommand{\phiv}{\mbox{\boldmath$\phi$}}
+\newcommand{\thetav}{\mbox{\boldmath$\theta$}}
+\def\pef{\par\noindent\hangindent 15pt}
+\def\simlt{\lower.5ex\hbox{$\; \buildrel < \over \sim \;$}}
+\def\lesssim{\lower.5ex\hbox{$\; \buildrel < \over \sim \;$}}
+\def\simgt{\lower.5ex\hbox{$\; \buildrel > \over \sim \;$}}
+\def\apj{{\it Astrophys. J.}}
+\def\jcap{{\it  J. Cosmo. \& Astroparticle Phys.}}
+\def\aj{{\it Astron. J.}}
+\def\mnras{{\it Mon. Not. R. astr. Soc.}}
+\newcommand{\apjl}{ApJL}
+\newcommand{\nat}{Nature}
+\newcommand{\araa}{ARA\&A}
+\newcommand{\apjs}{ApJS}
+\newcommand{\aap}{A\&A}
+\newcommand{\pasp}{PASP}
+\newcommand{\sfig}[2]{
+\begin{center}
+\includegraphics[width=#2]{#1}
+\end{center}
+        }
+\newcommand{\Sfig}[2]{
+    \begin{figure}[htb]
+    \sfig{./#1.jpg}{.5\columnwidth}
+    \caption{{\small #2}}
+    \label{fig:#1}
+    \end{figure}
+}
+\newcommand{\Sfigtwo}[3]{
+        \begin{figure}[htbp]
+\sfig{#1.eps}{.3\columnwidth}
+\sfig{#2.eps}{.3\columnwidth}
+\caption{{\small #3}}
+\label{fig:#1}
+\end{figure}
+}
+\newcommand\be{\begin{equation}}
+\newcommand{\Rf}[1]{\ref{fig:#1}}
+\newcommand{\rf}[1]{\ref{fig:#1}}
+\def\ee{\end{equation}}
+\def\bea{\begin{eqnarray}}
+\def\eea{\end{eqnarray}}
+\newcommand{\vs}{\nonumber\\}
+\newcommand{\ec}[1]{Eq.~(\ref{eq:#1})}
+\newcommand{\Ec}[1]{(\ref{eq:#1})}
+\newcommand{\eql}[1]{\label{eq:#1}}
+\newcommand\cov{{\rm Cov}}
+\newcommand\cl{{\mathcal{C}_l}}
+\usepackage[margin=3.0cm]{geometry}
+\usepackage{pslatex}
+\newcommand\fnl{f_{\rm NL}}
+\newcommand{\wh}[1]{\textcolor{blue}{[#1]}}
+
+\newcommand\cp{C^{pri}}
+\newcommand\ci{C^{ISW}}
+\newcommand\cg{C^{gg}}
+\newcommand\cgt{C^{g-ISW}}
+\newcommand\tob{T^{\rm obs}}
+\newcommand\aob{a^{\rm obs}}
+\newcommand\tisw{T^{\rm ISW}}
+\newcommand\aisw{a^{\rm ISW}}
+\newcommand\si{C^{\rm ISW}_l}
+\newcommand\sig[1]{C^{\rm g_{#1}-ISW}_l}
+\newcommand\sg[2]{C^{\rm g_{#1}g_{#2}}_l}
+\newcommand\tp{T^p}
+
+
+%
+% definitions
+%
+% A useful Journal macro
+\def\Journal#1#2#3#4{{#1} {\bf #2}, #3 (#4)}
+% Some useful journal names
+\def\NCA{\em Nuovo Cimento\ }
+\def\NPB{{\em Nucl. Phys.} B\ }
+\def\PLB{{\em Phys. Lett.}  B\ }
+\def\PRL{{\em Phys. Rev. Lett.\ }}
+\def\PRD{{\em Phys. Rev.} D\ }
+\def\prd{{\em Phys. Rev.} D\ }
+\def\ZPC{{\em Z. Phys.} C\ }
+\def\apj{{\em Ap. J.\ }}
+\def\apjl{{\em Ap. J. Lett.\ }}
+\def\la{\hbox{${_{\displaystyle<}\atop^{\displaystyle\sim}}$}}
+\def\ga{\hbox{${_{\displaystyle>}\atop^{\displaystyle\sim}}$}}
+
+
+
+\baselineskip=11pt
+\def\msun{{\rm M_{\odot}}}
+
+\textheight=24.3cm
+\textwidth=16.8cm
+
+\begin{document}
+\topmargin=-2.105cm
+\oddsidemargin=-0.1cm
+\evensidemargin=0cm
+
+\begin{center}
+{\LARGE \bf Weak lensing from anisotropies in the two point correlation function: precision cosmology from new tracers}
+\end{center}
+
+\begin{small}
+
+
+
+\input{overview.tex}
+\input{introlya.tex}
+\input{introgalxi.tex}
+\input{simulations.tex}
+\input{estimators.tex}
+\input{observations.tex}
+\input{cosmology.tex}
+\input{broaderimpact.tex}
+\input{timeline.tex}
+\input{priornsf.tex}
+
+\end{small}
+
+\newpage
+
+\bibliographystyle{mynsf}
+\bibliography{lensingbib}
+
+\end{document}
