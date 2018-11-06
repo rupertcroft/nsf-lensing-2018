@@ -168,11 +168,9 @@ Baxter, E.~J. et~al., 2015, \emph{{A Measurement of Gravitational Lensing of
 {Hoekstra}, H. and {Jain}, B., 2008, \emph{{Weak Gravitational Lensing and Its
   Cosmological Applications}}, Annual Review of Nuclear and Particle Science,
   58, 99--123.
-
-\bibitem{Hu:2001tn} 
-  W.~Hu,
-  %``Mapping the dark matter through the cmb damping tail,''
-  Astrophys.\ J.\  {\bf 557}, L79 (2001).
+ 
+\bibitem[{Hu}(2001)]{Hu:2001tn}
+{Hu}, W., 2001, \emph{{Mapping the Dark Matter through the CMB Damping Tail}}, \apjl, 557, L79.
 
 \bibitem[{Hu} and {Okamoto}(2002)]{okamoto}
 {Hu}, W. and {Okamoto}, T., 2002, \emph{{Mass Reconstruction with Cosmic
