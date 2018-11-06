@@ -48,9 +48,16 @@
 \includegraphics[width=#2]{#1}
 \end{center}
         }
+\newcommand{\Sjpg}[2]{
+    \begin{figure}[htb]
+    \sfig{./#1.jpg}{.9\columnwidth}
+    \caption{{\small #2}}
+    \label{fig:#1}
+    \end{figure}
+}
 \newcommand{\Sfig}[2]{
     \begin{figure}[htb]
-    \sfig{./#1.jpg}{.5\columnwidth}
+    \sfig{./#1.pdf}{.9\columnwidth}
     \caption{{\small #2}}
     \label{fig:#1}
     \end{figure}
@@ -126,7 +133,8 @@
 \evensidemargin=0cm
 
 \begin{center}
-{\LARGE \bf Weak lensing from anisotropies in the two point correlation function: precision cosmology from new tracers}
+%{\LARGE \bf Weak lensing from anisotropies in the two point correlation function: precision cosmology from new tracers}
+{\LARGE \bf New Vistas in Weak Lensing}
 \end{center}
 
 \begin{small}
