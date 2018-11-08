@@ -196,7 +196,8 @@ For these purposes, we follow Section 9 of the LSST Science Book and assume
 \be
 w(\theta) = 0.36 \left( \frac{1'}{\theta} \right)^{0.8} \, \frac{0.1}{\Delta z}.
 \ee
-As a sanity check, the slope is consistent with the latest DES measurements \citep{Elvin-Poole:2017xsf}, but the assumed amplitude is actually a bit smaller than the observations, so this might lead to an under-estimate of the signal to noise. We also choose 4 galaxies per square arcminute in a given redshift bin of width $\Delta z=0.2$. Most of the signal comes from pixels closest to the cluster center, so in this case including galaxies to only $2'$ is sufficient
+As a sanity check, the slope and amplitude are consistent with the latest DES measurements \citep{Elvin-Poole:2017xsf} when projected to the source galaxy redshift width and bias. As an estimate of the current capabilities, we take the source galaxies in DES in the redshift bin $0.6<z<0.9$ with their number density of 1.5 per square arcminute.
+Most of the signal comes from pixels closest to the cluster center, so in this case including galaxies to only $2'$ is sufficient
 to capture 95\% of the signal. 
 %Fig.~\rf{fthij} shows $f_{ij}/\theta_{ij}$ ( which multiplies
 %$dw/d\ln(\theta)$ in the sum for all pairs of pixels. Of course pixels
@@ -210,7 +211,7 @@ to capture 95\% of the signal.
 %  $50$ square arcmin is used in the sum, with 169 pixels covering the
 %  area.}
 
-The results of this estimate are that {\bf the expected signal to noise is large}. Even for the extremely low density redMaGic galaxies in DES, the signal to noise from a single tomographic bin with $0.6<z<0.75$, the expected signal to noise is 0.2. Therefore, stacking only 500 clusters (the Year 1 catalog has closer to 10,000) leads to a 10\% mass determination. With its more precise photometric redshifts and larger background galaxy density, {\bf LSST could measure the mass of a single cluster with 10\% uncertainty} using the \atf\ technique.
+The results of this estimate are that {\bf the expected signal to noise is large}. Even for a current survey like DES, the signal to noise from a single tomographic bin with $0.6<z<0.9$, the expected signal to noise behind a single cluster is 0.7. Therefore, stacking only 200 clusters (the Year 1 catalog has closer to 10,000) leads to a 10\% mass determination. With its more precise photometric redshifts and larger background galaxy density, {\bf LSST could measure the mass of a single cluster with 10\% uncertainty} using the \atf\ technique.
 
 %In the example depicted in the figure, the total signal to noise is
 %equal to \be \frac{S}{N} = 0.02 \frac{\bar n}{{\rm gal}/(1')^2}
