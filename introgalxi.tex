@@ -128,29 +128,21 @@ Dark Energy Survey Science Committee. He brings insight into the DES cluster cos
 
 
 
-\subsubsection{Estimates of detectability}
+\subsubsection{Signal to Noise}
 
 Let us provide a rough estimate of the detectability of
-lensing-induced anisotropy in the galaxy distribution. Consider many
-galaxies behind a massive galaxy cluster, with a known correlation
-function $w(\theta)$. This assumption is important, but it is also
-completely realistic because we will be able to measure the
-correlation function over an entire survey so will have millions of
-regions of roughly the size we are considering (ten square
-arcminutes). When we average $w$ over all these regions, we will
-obtain an excellent estimate of it on arcminute scales. The observed
-correlation function will be distorted due to the presence of the
+the \atf\ of the galaxy distribution due to a typical cluster of mass $2\times10^{14} M_\odot$. We can assume that the
+unlensed $w(\theta)$ is known extremely well because it can be measured over the large area covered by any modern survey (e.g., in DES, this is 5000 square degrees and 20,000 in LSST). The observed
+correlation function of the background galaxies will be distorted due to the presence of the
 foreground lens, as in the cartoon in Fig.~\ref{cluster}. Each
 galaxy's position will be shifted: \be \vec\theta^{\rm obs} =
 \vec\theta + \vec{\delta\theta}(\vec\theta) \ee where $\vec\theta$ is
-the undeflected positions, and the deflection angle $\vec
+the undeflected position, and the deflection angle $\vec
 {\delta\theta}$ is a function of $\vec\theta$ that depends on the mass
-distribution of the lens. In the simplest example of a point mass
+distribution of the lens. For the purpose of this estimate, we assume a point mass
 lens, \be \vec{\delta\theta}(\vec\theta) =
-\vec\theta\,\frac{\theta_E^2}{\theta^2} \ee where $\theta_E$ is the
-Einstein radius of the lens, which could be as large as $1'$ for a
-very massive cluster.
-
+\vec\theta\,\frac{\theta_E^2}{\theta^2}. \ee For a lens a typical distance of 1 Gpc from us (and sources far behind),
+the Einstein radius $\theta_E=40'' (M/2\times 10^{14}M_\odot)^{1/2}.$ 
 
 
 
@@ -188,37 +180,48 @@ imagine pixelizing the region around the lens and forming an
 estimator for the angular correlation function for every pixel pair:
 \be \hat w(\vec\theta_i,\vec\theta_j) = \delta_i\delta_j \ee where
 $\delta_i\equiv (n_i-\bar n)/\bar n$. Here $n_i$ is the number of
-galaxie s in pixel $i$ and for simplicity it is assumed that the
-expected number of gal axies in each pixel is equal to $n$ (i.e., it
-is assumed that the mask is trivi al). This estimator for $w$ is the
-Landy and Szalay estimator~\cite{1993ApJ...412...64L}, with an expectation value equal to
+galaxies in pixel $i$ and for simplicity it is assumed that the
+expected number of galaxies in each pixel is equal to $n$ (i.e., it
+is assumed that the mask is trivial). This is the
+\citet{1993ApJ...412...64L} estimator, with an expectation value equal to
 \ec{taylor}.  As a first estimate, we neglect cosmic variance, so
 that the error on the estimator is simply Poisson noise: \be {\rm
   Var}(\hat w) = \frac{1}{\bar n^2} .\ee The signal to noise squared
 then is \be \left(\frac{S}{N}\right)^2 = \sum_{ij}
-\frac{\left(w'(\theta_{ij})f_{ij}\right )^2}{1/\bar n^2} \ee
-Fig.~\rf{fthij} shows $f_{ij}/\theta_{ij}$ ( which multiplies
-$dw/d\ln(\theta)$ in the sum for all pairs of pixels. Of course pixels
-closest to the center of the cluster contribute the most to the signal
-to noise.
+\frac{\left(w'(\theta_{ij})f_{ij}\right )^2}{1/\bar n^2} .\ee
 
-\Sfig{figs/fthij}{Contribution to the signal to noise on the
-  lensing-induced anisotropy from pairs of pixels as a function of
-  the distance of the first pixel to the center. Here the cluster is
-  taken to have an Einstein radius of $0.5'$, and a square region of
-  $50$ square arcmin is used in the sum, with 169 pixels covering the
-  area.}
 
-In the example depicted in the figure, the total signal to noise is
-equal to \be \frac{S}{N} = 0.02 \frac{\bar n}{{\rm gal}/(1')^2}
-\,\frac{dw/d\ln(\theta)}{10^ {-2}}.  .\ee Even for the Dark Energy
-Survey, which can capture ten galaxies per square arcminute (recall that
-shapes are not needed), this estimate for the signal to noise for a single cluster is
-0.2. Therefore, stacking 1000 clusters will give a 6-sigma
-detection. And upcoming surveys with the capability to go much deeper
-will do considerably better, perhaps even detecting the effect on a
-single massive cluster.
+To make an estimate of the signal to noise, we need to insert information about the angular correlation function and the background galaxy density.
+For these purposes, we follow Section 9 of the LSST Science Book and assume
+\be
+w(\theta) = 0.36 \left( \frac{1'}{\theta} \right)^{0.8} \, \frac{0.1}{\Delta z}.
+\ee
+As a sanity check, the slope is consistent with the latest DES measurements \citep{Elvin-Poole:2017xsf}, but the assumed amplitude is actually a bit smaller than the observations, so this might lead to an under-estimate of the signal to noise. We also choose 4 galaxies per square arcminute in a given redshift bin of width $\Delta z=0.2$. Most of the signal comes from pixels closest to the cluster center, so in this case including galaxies to only $2'$ is sufficient
+to capture 95\% of the signal. 
+%Fig.~\rf{fthij} shows $f_{ij}/\theta_{ij}$ ( which multiplies
+%$dw/d\ln(\theta)$ in the sum for all pairs of pixels. Of course pixels
+%closest to the center of the cluster contribute the most to the signal
+%to noise.
 
+%\Sfig{figs/fthij}{Contribution to the signal to noise on the
+%  lensing-induced anisotropy from pairs of pixels as a function of
+%  the distance of the first pixel to the center. Here the cluster is
+%  taken to have an Einstein radius of $0.5'$, and a square region of
+%  $50$ square arcmin is used in the sum, with 169 pixels covering the
+%  area.}
+
+The results of this estimate are that {\bf the expected signal to noise is large}. Even for the extremely low density redMaGic galaxies in DES, the signal to noise from a single tomographic bin with $0.6<z<0.75$, the expected signal to noise is 0.2. Therefore, stacking only 500 clusters (the Year 1 catalog has closer to 10,000) leads to a 10\% mass determination. With its more precise photometric redshifts and larger background galaxy density, {\bf LSST could measure the mass of a single cluster with 10\% uncertainty} using the \atf\ technique.
+
+%In the example depicted in the figure, the total signal to noise is
+%equal to \be \frac{S}{N} = 0.02 \frac{\bar n}{{\rm gal}/(1')^2}
+%\,\frac{dw/d\ln(\theta)}{10^ {-2}}.  .\ee Even for the Dark Energy
+%Survey, which can capture ten galaxies per square arcminute (recall that
+%shapes are not needed), this estimate for the signal to noise for a single cluster is
+%0.2. Therefore, stacking 1000 clusters will give a 6-sigma
+%detection. And upcoming surveys with the capability to go much deeper
+%will do considerably better, perhaps even detecting the effect on a
+%single massive cluster.
+%
 Of course this estimate needs to be fleshed out and tested on simulations; 
 indeed, this is the main aim of a large part of the proposal (\S\ref{sec:sim}).
 
