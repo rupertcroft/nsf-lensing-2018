@@ -1,0 +1,60 @@
+The theory of general relativity dictates that particles
+traveling through gravitational potential wells experience
+time delays [1]. If two photons are emitted at the same
+time, then they will travel different distances depending
+upon the potential Φ through which they travel. In a
+
+cosmological context of an expanding universe, the frac-
+tional difference in comoving distance D to a source at
+
+redshift z is equal to
+d(ˆn) = −2
+Z z
+0
+d ln(1 + z
+0
+) K(z, z0
+)Φ (D(z
+0
+)ˆn;t(z
+0
+)) (1)
+
+where the kernel K(z, z0
+) = (H(z
+0
+)D(z))−1 with H the
+Hubble rate; and t(z) is the age of the universe . There is
+also a geometric time delay that is typically of the same
+size for a single lens, but when the path is through a
+series of peaks and troughs, the mean time delay is much
+smaller, of order θRMS, so we neglect it here.
+
+Similarly [2], photons that comprise the cosmic mi-
+crowave background (CMB) experience these same time
+
+delays or advances depending on the integrated potential
+
+through which they travel.
+This directional-dependent
+change in the distance to last scattering is independent
+of its finite width and a phenomenon different than the
+
+angular deflections [3, 4] that have been captured by re-
+cent experiments [5–9].
+
+Although deflections and delays are two different phe-
+nomena, they share some similarities, especially in the
+case of the CMB. Both are determined by the integrated
+potential along the line of sight, although with slightly
+different kernels, as depicted in Figure 1. It is clear that
+
+they will be highly correlated, so as a first approxima-
+tion, we might view the maps of the lensing potential
+
+created for example in Aghanim et al. [9] as maps of dis-
+tance to the last scattering surface. Another similarity,
+
+one that has not yet been exploited, is that the formalism
+first proposed in Hu [3] can be applied to the delays as
+well, and this is what we will carry out in this proposal.

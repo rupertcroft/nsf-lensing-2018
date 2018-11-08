@@ -201,7 +201,7 @@ $dw/d\ln(\theta)$ in the sum for all pairs of pixels. Of course pixels
 closest to the center of the cluster contribute the most to the signal
 to noise.
 
-\Sfig{fthij}{Contribution to the signal to noise on the
+\Sfig{figs/fthij}{Contribution to the signal to noise on the
   lensing-induced anisotropy from pairs of pixels as a function of
   the distance of the first pixel to the center. Here the cluster is
   taken to have an Einstein radius of $0.5'$, and a square region of

@@ -1,4 +1,24 @@
-\section{Introduction to \lya\ forest lensing}
+\subsection{Introduction to \lya\ forest lensing}
+
+
+An idealized test was carried out in C18 using using a mock high
+resolution angular grid of quasars (of order arcminute separ\ ation)
+and a linear theory foreground density field. Standard quadratic
+estimators (e.g., \cite{okamoto}) were used to successfully
+reconstruct images of the foreground mass distribution. In the work
+proposed here we will expand the realism of such tests and make
+measurements on real data. Enough work has been done to \ date on this
+source that this is a relatively low risk project. There is still the
+question of how powerful a tool \atf\ of the \lya\ \ forest statistics
+will become. Will they surpass the more traditional shape
+mea\ surements for at least some range of redshift? What are the
+systematics that mu\ st be treated in order to extract cosmological
+information. We argue below that\ we are well-suited to address these
+questions and feel that they provide a bro\ ad range of opportunities
+for graduate students.
+
+
+
 
 The \lya\ forest of absorption features due to neutral hydrogen can
 seen in the spectra of both quasars \cite{rauch1998} and galaxies (e.g.,
@@ -70,9 +90,9 @@ angles.
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.33]{lensdiagram.eps}
+    \includegraphics[scale=0.33]{figs/lensdiagram.eps}
     \hspace{1cm}
-    \includegraphics[scale=0.33]{angdiag.eps}
+    \includegraphics[scale=0.33]{figs/angdiag.eps}
   \end{center}
   \caption{
 {\bf Left panel: cartoon illustration of the geometry of \lya\ forest lensing.}
@@ -116,13 +136,8 @@ ${\pmb {\nabla \Phi}} =- {\pmb {\beta}}({\pmb {\theta}} )$,
 in the weak lensing limit. This lensing potential can be
 computed from the full 3D gravitational
 potential (e.g, Bartelmann \& Schneider 2001) by an integration
-over redshift:
-
-\begin{equation}
-\Phi=\frac{2}{c^2}\int^{z_{s}}_{0}dz\frac{D(z)D(z_{s},z)}{D(z_{s})}\phi(D(z){\pmb {\theta}}(z),z),
-\end{equation}
-where $D(z)$ is the angular size distance to redshift $z$ and $D(z,z')$ is the a
-ngular size distance between redshifts $z$ and $z'$. This lensing potential
+over redshift as in \ec{phi}.
+This lensing potential
 can  be reconstructed from the \lya\ forest field using 
 quadratic estimators (e.g., \cite{okamoto}).
 

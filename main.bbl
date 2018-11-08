@@ -1,4 +1,4 @@
-\begin{thebibliography}{59}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[Abbott et~al.(2017)]{Abbott:2017wau}
@@ -168,9 +168,6 @@ Baxter, E.~J. et~al., 2015, \emph{{A Measurement of Gravitational Lensing of
 {Hoekstra}, H. and {Jain}, B., 2008, \emph{{Weak Gravitational Lensing and Its
   Cosmological Applications}}, Annual Review of Nuclear and Particle Science,
   58, 99--123.
- 
-\bibitem[{Hu}(2001)]{Hu:2001tn}
-{Hu}, W., 2001, \emph{{Mapping the Dark Matter through the CMB Damping Tail}}, \apjl, 557, L79.
 
 \bibitem[{Hu} and {Okamoto}(2002)]{okamoto}
 {Hu}, W. and {Okamoto}, T., 2002, \emph{{Mass Reconstruction with Cosmic
@@ -338,10 +335,6 @@ Manzotti, A. et~al., 2017, \emph{{CMB Polarization B-mode Delensing with SPTpol
 {Walsh}, D., {Carswell}, R.~F., and {Weymann}, R.~J., 1979, \emph{{0957 + 561
   A, B - Twin quasistellar objects or gravitational lens}}, \nat, 279,
   381--384.
-
-\bibitem[{Zahn} and {Zaldarriaga}(2006)]{zahn2006}
-{Zahn}, O. and {Zaldarriaga}, M., 2006, \emph{{Lensing Reconstruction Using
-  Redshifted 21 Centimeter Fluctuations}}, \apj, 653, 922--935.
 
 \bibitem[{Zentner} et~al.(2013)]{zentner2013}
 {Zentner}, A.~R., {Semboloni}, E., {Dodelson}, S., {Eifler}, T., {Krause}, E.,
