@@ -1,41 +1,57 @@
-\subsection{Anisotropic galaxy two point functions}\label{sec:lia}
+\subsection{Galaxy Clustering}\label{sec:lia}
 
-\subsubsection{Motivation}
+%\subsubsection{Motivation}
 
 \subsubsection{The Effect}
-Some regions in the universe are more overdense than
-others.  This means that light passing through one direction is
-distorted in ways different than is light traversing another line of
-sight. This simple fact has dramatic implications for the
-correlations between galaxies. The simplest statistic that
+The simplest statistic that
 characterizes the angular distribution of galaxies on the sky is the
 angular correlation function, $w(\vec\theta_1,\vec\theta_2)$, which
 quantifies the excess probability over random that a galaxy will be
 found at $\vec\theta_2$ given that there is a galaxy at
-$\vec\theta_1$. It is usually argued that there is no special place in
-the universe, so this excess probability does not depend on the
-locations $\vec\theta_1$ and $\vec\theta_2$ separately but rather on
-their difference, $\vec\theta_1-\vec\theta_2$. Further, since the
-deviations from uniformity are not expected to have a special
-direction, the angular correlation function is assumed to depend only
-on the angular distance between galaxies, $\vert\vec\theta_!-\vec\theta_2\vert$.
+$\vec\theta_1$. In the isotropic case, the angular correlation function depends only on the angular distance
+between the two positions: $w=w(\vert\vec\theta_1-\vec\theta_2\vert)$. The \atf\ effect here means
+that $w$ depends also on the location on the sky.
 
-This assumption breaks down in the real universe where different lines
-of sight pass through over- or under-dense regions. The observed
-angular correlation therefore depends on the angular positions of the
-two galaxies: $w=w(\vec\theta_1 ,\vec\theta_2)\ne
-w(\vert\vec\theta_1-\vec\theta_2\vert)$. We propose to use this {\it
-  anisotropy of the correlation function} to learn about the structure
-between us and the background galaxies. We will first detect this
-behind the most massive objects, galaxy clusters, and then move to
-measure the anisotropy on the full sky, where it is induced by the
-various under- and over-dense regions that constitute the cosmic
-web. To be clear, the variety of non-gaussian effects that impact the
-distribution of galaxies on the sky do {\it not} break isotropy so
-cannot be confused with this effect.
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.33]{figs/clusterfig.jpg}
+  \end{center}
+  \caption{
+{\bf Cartoon of the impact of a foreground lens on
+  background galaxies.} All galaxies appear further away from the
+  cluster center, their observed positions shifting as
+  indicated by the arrows. Galaxies closest to the center experience
+  the largest shift in position (this 
+lensing deflection is not shown to scale). The correlation function
+of the background galaxies will also be distorted by these deflection
+angles, and this is what we plan to measure.}
+  \label{cluster}
+\end{figure}
 
-{\it Galaxy clusters and the acceleration of the universe:} Galaxy
-clusters are the largest, most massive bound structures in the
+This is simplest to envision and to measure when measuring $w$ behind a massive object such as a galaxy cluster. 
+Fig.~\ref{cluster} shows a schematic picture of this. For example, the positions of the two galaxies directly to the left of the cluster are deflected by different amounts (the one closest is deflected more than the one further away, so the observed distance between those two galaxies is {\it smaller} than it would be in the absence of lensing. The observed $w$ then is governed by the larger unlensed distance. Walking through this exercise for all pairs of galaxies in the picture make it clear that the observed $w$ will not depend on simply the observed angular distance between pairs of galaxies. Indeed, we argue that {\bf the 
+most impactful implementation of the \atf\ of galaxies will be to measure the masses of galaxy clusters.}
+
+
+%
+%
+%This assumption breaks down in the real universe where different lines
+%of sight pass through over- or under-dense regions. The observed
+%angular correlation therefore depends on the angular positions of the
+%two galaxies: $w=w(\vec\theta_1 ,\vec\theta_2)\ne
+%w(\vert\vec\theta_1-\vec\theta_2\vert)$. We propose to use this {\it
+%  anisotropy of the correlation function} to learn about the structure
+%between us and the background galaxies. We will first detect this
+%behind the most massive objects, galaxy clusters, and then move to
+%measure the anisotropy on the full sky, where it is induced by the
+%various under- and over-dense regions that constitute the cosmic
+%web. To be clear, the variety of non-gaussian effects that impact the
+%distribution of galaxies on the sky do {\it not} break isotropy so
+%cannot be confused with this effect.
+
+\subsubsection{Context}
+
+Galaxy clusters are the largest, most massive bound structures in the
 universe and therefore are the key to a number of cosmological
 puzzles. Chief among these is identifying the mechanism responsible
 for the current epoch of cosmic acceleration. The community has moved
@@ -62,52 +78,53 @@ electrons in the intracluster gas, weak lensing by galaxies, and most
 recently weak lensing by the cosmic microwave background 
 (CMB)~\cite{Liu:2014pqa,Baxter:2014frs,2014MNRAS.439.1628Z,melchior2017,simet2017,Baxter:2017ixz}. This
 proposal aims to add yet another tool that can measure galaxy cluster
-masses.
+masses. Dodelson has not only helped launch the field of CMB cluster lensing with \cite{Baxter:2014frs}, but also serves as Co-Chair of the
+Dark Energy Survey Science Committee. He brings insight into the DES cluster cosmology analysis. The Year 1 analysis will be released by the time this proposal is read, and we are currently working on Year 3 data. From the estimates below, it is possible that \atf\ of galaxies will emerge as a powerful tool for cluster cosmology even for DES data. The situation is even more promising for next generation surveys, such as LSST.
 
-\subsubsection{Context}
 
-Of course, using the anisotropy in clustering
-statistics has been exploited already in studies of the cosmic
-microwave background.  The small scale structure of the CMB carries
-information about the lensing potential along the line of sight. This
-information has now been extracted by multiple CMB experiments,
-obtaining maps of the integrated gravitational potential and
-information about the masses of clusters. There are differences
-between the lensing-induced anisotropies proposed here and those
-produced by lensing of the CMB. First, the information in the CMB is
-currently limited by the resolution of the telescopes to be about
-$1'$, while galaxy surveys that measure galaxies do much better,
-resolving galaxies separated by several arcseconds. Second, the
-primary CMB is predominantly a Gaussian field, while the small scale
-galaxy distribution has evolved to be very non-gaussian\footnote{A
-  technical point: the impact of lensing produces an anisotropic field
-  in both the cases of the CMB and galaxy clustering. In the former
-  case, the anisotropic field is Gaussian, while in the latter it is
-  non-gaussian. In both cases, though, the effect is characterized by
-  $w\ne w(\vert\vec\theta_1-\vec\theta_2\vert)$.  The distinction between the Gaussian (CMB) and non-Gaussian (galaxies) manifestations
-  of lensing disappears when one considers the power spectra of the
-  lensing field: these are estimated via a 4-point function, which is
-  non-gaussian in both cases.}.
 
-The difference in scales suggests that the route into this new effect
-of the clustering anisotropy induced by lensing is by first detecting
-it when the lenses are discrete objects such as clusters. Upcoming
-surveys will find hundreds of galaxies -- and therefore tens of
-thousands of pairs of galaxies -- in the few square arcminute field
-behind a galaxy cluster. As we show below, this leads to an exciting
-opportunity to open up this new area of lensing. The fact that the
-signal scales with the number of pairs of galaxies and the fact that
-the shapes of these galaxies do not need to be measured reflect two
-advantages over the current weak lensing estimates of cluster
-masses. After detecting this effect behind clusters, we will turn to
-large scale mapping of the integrated gravitational potential. Here,
-the problem becomes similar to the CMB because the galaxy field on
-large scales is close to gaussian, so many of the tools developed in
-CMB lensing can be imported. Indeed, cross-correlating the maps
-produced by the CMB and those produced by galaxy fields will be a
-powerful way to reduce the systematic effects that afflict each
-separately.
-
+%Of course, using the anisotropy in clustering
+%statistics has been exploited already in studies of the cosmic
+%microwave background.  The small scale structure of the CMB carries
+%information about the lensing potential along the line of sight. This
+%information has now been extracted by multiple CMB experiments,
+%obtaining maps of the integrated gravitational potential and
+%information about the masses of clusters. There are differences
+%between the lensing-induced anisotropies proposed here and those
+%produced by lensing of the CMB. First, the information in the CMB is
+%currently limited by the resolution of the telescopes to be about
+%$1'$, while galaxy surveys that measure galaxies do much better,
+%resolving galaxies separated by several arcseconds. Second, the
+%primary CMB is predominantly a Gaussian field, while the small scale
+%galaxy distribution has evolved to be very non-gaussian\footnote{A
+%  technical point: the impact of lensing produces an anisotropic field
+%  in both the cases of the CMB and galaxy clustering. In the former
+%  case, the anisotropic field is Gaussian, while in the latter it is
+%  non-gaussian. In both cases, though, the effect is characterized by
+%  $w\ne w(\vert\vec\theta_1-\vec\theta_2\vert)$.  The distinction between the Gaussian (CMB) and non-Gaussian (galaxies) manifestations
+%  of lensing disappears when one considers the power spectra of the
+%  lensing field: these are estimated via a 4-point function, which is
+%  non-gaussian in both cases.}.
+%
+%The difference in scales suggests that the route into this new effect
+%of the clustering anisotropy induced by lensing is by first detecting
+%it when the lenses are discrete objects such as clusters. Upcoming
+%surveys will find hundreds of galaxies -- and therefore tens of
+%thousands of pairs of galaxies -- in the few square arcminute field
+%behind a galaxy cluster. As we show below, this leads to an exciting
+%opportunity to open up this new area of lensing. The fact that the
+%signal scales with the number of pairs of galaxies and the fact that
+%the shapes of these galaxies do not need to be measured reflect two
+%advantages over the current weak lensing estimates of cluster
+%masses. After detecting this effect behind clusters, we will turn to
+%large scale mapping of the integrated gravitational potential. Here,
+%the problem becomes similar to the CMB because the galaxy field on
+%large scales is close to gaussian, so many of the tools developed in
+%CMB lensing can be imported. Indeed, cross-correlating the maps
+%produced by the CMB and those produced by galaxy fields will be a
+%powerful way to reduce the systematic effects that afflict each
+%separately.
+%
 
 
 
@@ -138,21 +155,6 @@ very massive cluster.
 
 
 
-\begin{figure}
-  \begin{center}
-    \includegraphics[scale=0.33]{figs/clusterfig.jpg}
-  \end{center}
-  \caption{
-{\bf Cartoon of the impact of a foreground lens on
-  background galaxies.} All galaxies appear further away from the
-  cluster center, their observed positions shifting as
-  indicated by the arrows. Galaxies closest to the center experience
-  the largest shift in position (this 
-lensing deflection is not shown to scale). The correlation function
-of the background galaxies will also be distorted by these deflection
-angles, and this is what we plan to measure.}
-  \label{cluster}
-\end{figure}
 
 The unlensed positions are $\vec\theta^{\rm obs}-\vec{\delta\theta}$,
 and the correlation function governing those unlensed positions is
