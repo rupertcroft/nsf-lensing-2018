@@ -1,7 +1,7 @@
 \section{Overview and Objectives}
 Weak gravitational lensing has emerged as one of the powerful probes
 of cosmology. The small distortions of background images as
-they are lensed by foreground matter are sensitive to both the matter
+they are lensed by foreground matter are sensitive to both the
 contents and the geometry of the Universe (e.g., \cite{blandford92},
 \cite{hoekstra2008}).  Galaxy images are the most commonly used
 cosmological sources (see \cite{Kilbinger2015} and references
@@ -10,18 +10,18 @@ also widely studied (see e.g., the review by \cite{lewis2006}, and
 results from, e.g., the Planck satellite, Ade {\it et al.} 2015).
  These two implementations of lensing differ not only 
 in the sources 
-studied (galaxies and the CMB) but also in
+studied  but also in
 the fundamental observable. In one case,
  the shapes of galaxies are used to
 determine the intervening gravitational potential (see the top
 left panel in Figure 1, which shows galaxy clusters and large-scale structure).
-On the other hand, for the` 
-CMB, the inhomogeneous potential can be mapped (middle panel of Figure 1) using
+On the other hand, for the
+CMB, the potential can be mapped (middle panel of Figure 1) using
 {\it anisotropies} in the
 two-point statistics of the otherwise Gaussian field. 
 
 
-These Anisotropies of the Two-point Function (hereafter \atf\ ) will 
+These {\it anisotropic two-point functions} (hereafter \atf\ ) will 
 affect any cosmologically distributed background
 sources. The field of weak lensing can therefore be broadened by looking 
 at new applications of them. We choose three to work  on in this proposal:
@@ -41,7 +41,7 @@ of galaxies are deflected by lensing
 resulting in local distortions of
 clustering statistics.
 
-{\bf (3) A new window on time delays with \atf\ }. So far, these have been
+{\bf (3) A new window on time delays with \atf\ }. So far, time delays have been
 detected only in the case of strong lensing. But using our new
 technique,  upcoming CMB experiments can estimate the time
 delay field.

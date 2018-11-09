@@ -1,24 +1,29 @@
-\subsection{Introduction to \lya\ forest lensing}
+\subsection{\lya\ forest lensing}
 
 
+For the first probe, the \lya\ forest,  the \atf\ will be measured
+from the large-scale structure of the intergalactic medium, as 
+seen in quasar spectra.  
+The forest has the advantage of spectral information,
+potentially yielding many lensed ``slices'' at different redshifts.
 An idealized test was carried out in C18 using using a mock high
 resolution angular grid of quasars (of order arcminute separ\ ation)
 and a linear theory foreground density field. Standard quadratic
 estimators (e.g., \cite{okamoto}) were used to successfully
 reconstruct images of the foreground mass distribution. In the work
 proposed here we will expand the realism of such tests and make
-measurements on real data. Enough work has been done to \ date on this
+measurements on real data. Enough work has been done to  date on this
 source that this is a relatively low risk project. There is still the
 question of how powerful a tool \atf\ of the \lya\ \ forest statistics
 will become. Will they surpass the more traditional shape
-mea\ surements for at least some range of redshift? What are the
-systematics that mu\ st be treated in order to extract cosmological
-information. We argue below that\ we are well-suited to address these
-questions and feel that they provide a bro\ ad range of opportunities
+measurements for at least some range of redshift? What are the
+systematics that must be treated in order to extract cosmological
+information? We argue below that we are well-suited to address these
+questions and feel that they provide a broad range of opportunities
 for graduate students.
 
 
-
+\subsubsection{The \lya\ forest source field}
 
 The \lya\ forest of absorption features due to neutral hydrogen can
 seen in the spectra of both quasars \cite{rauch1998} and galaxies (e.g.,
@@ -57,6 +62,7 @@ CMB, enabling analyses to be free of uncertainties in the redshift
 distribution of sources which affect galaxy weak lensing studies
 \citep{hearin2010}.
 
+\subsubsection{Lenses for the forest}
 
 The \lya\ forest at redshift $z_{s}$ is lensed by the matter
 distribution lying between us and $z_{s}$. Gravitational lensing
