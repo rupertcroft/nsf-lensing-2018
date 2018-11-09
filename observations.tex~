@@ -10,8 +10,8 @@ inform our estimates of errors and uncertainties.
 
 
 \begin{figure}
- \includegraphics[width=0.5\columnwidth]{obs/eBOSS.eps}
- \includegraphics[width=0.5\columnwidth]{obs/CLAMATO.eps}
+ \includegraphics[width=0.5\columnwidth]{figs/eBOSS.eps}
+ \includegraphics[width=0.5\columnwidth]{figs/CLAMATO.eps}
  \caption{ {\bf The predicted lensing displacement power spectrum  measured
 from the \lya\ forest and its 
 estimated errors. }
@@ -76,8 +76,8 @@ measurement with cross-correlation should be straightforward.
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.3]{obs/GRP_512_15_z1.png}
-    \includegraphics[scale=0.3]{obs/GRP_512_15_z1_Recov.png}
+    \includegraphics[scale=0.3]{figs/GRP_512_15_z1.png}
+    \includegraphics[scale=0.3]{figs/GRP_512_15_z1_Recov.png}
   \end{center}
   \caption{
 {\bf Recovery of the lensing potential field from a simulation of \lya\ forest

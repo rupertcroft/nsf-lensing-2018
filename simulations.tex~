@@ -60,7 +60,7 @@ Stars \\
 \normalsize
 \end{center}
 \vspace{-1cm}
-\caption{\footnotesize {\bf N-body Simulations available to this project.} 
+\caption{{\bf N-body Simulations available to this project.} 
   The columns denote the runs, the number of particles
   N$_{\rm part}$, the size of the simulation box  L$_{\rm box}$, the
   gravitational softening length $\epsilon$ and the final redshift 
