@@ -12,7 +12,7 @@ inform our estimates of errors and uncertainties.
 \begin{figure}
  \includegraphics[width=0.5\columnwidth]{figs/eBOSS.eps}
  \includegraphics[width=0.5\columnwidth]{figs/CLAMATO.eps}
- \caption{ {\bf The predicted lensing displacement power spectrum  measured
+ \caption{ \footnotesize {\bf The predicted lensing displacement power spectrum  measured
 from the \lya\ forest and its 
 estimated errors. }
 {\bf Left panel:}
@@ -39,7 +39,7 @@ CLAMATO   & 2014-2020 & 0.8 sq. deg.    & 1,000              & 1.7 arcmin      \
 \hline
 \end{tabular}
 \centering
-\caption{
+\caption{ \footnotesize
 {\bf \lya\ forest observational
 datasets we will use.} 
 Of these, BOSS (Dawson {\it et al.} 2013) has been completed,
@@ -79,7 +79,7 @@ measurement with cross-correlation should be straightforward.
     \includegraphics[scale=0.3]{figs/GRP_512_15_z1.png}
     \includegraphics[scale=0.3]{figs/GRP_512_15_z1_Recov.png}
   \end{center}
-  \caption{
+  \caption{ \footnotesize
 {\bf Recovery of the lensing potential field from a simulation of \lya\ forest
 lensing}. The left panel shows the input potential and the right panel
 the potential reconstructed from a lensed \lya\ forest dataset. The plot is taken from C18, and used gridded forest data (something which will
