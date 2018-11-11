@@ -14,7 +14,12 @@ import matplotlib.pyplot as plt
 ##### A good sense of where the constraining power comes from is to take the average value in a given annulus
 ####  as a proxy for S and then look at the log plot of theta^2 S 
 thetae=.5
-thmax=1.25
+thmax=3.05
+dz=0.3
+A=.36*(.1/dz)
+pixel=0.5
+nbar = 1.5*pixel**2
+gamma=0.8
 
 def dtheta(x1,y1):
 	theta2=(x1)**2+(y1)**2
@@ -22,8 +27,8 @@ def dtheta(x1,y1):
 	return dtheta*(x1),dtheta*(y1)	
 	
 def grid(thmax):
-	x=np.arange(-thmax,thmax,.5)
-	y = np.arange(-thmax,thmax,.5)
+	x=np.arange(-thmax,thmax,pixel)
+	y = np.arange(-thmax,thmax,pixel)
 	n=np.size(x)
 	n2=n**2
 	xi=np.zeros(n2)
@@ -49,10 +54,12 @@ for i in range(n2):
 	for j in range(i+1,n2):
 		thetaij=np.sqrt(  (xi[i]-xi[j])**2 + (yi[i]-yi[j])**2 )
 		dxj,dyj=dtheta(xi[j],yi[j])
-		sum+= (  ((dxi-dxj)*(xi[i]-xi[j]) +  (dyi-dyj)*(yi[i]-yi[j]) )  /thetaij**3)**2
+		s= ( A*gamma* ((dxi-dxj)*(xi[i]-xi[j]) +  (dyi-dyj)*(yi[i]-yi[j]) )  /thetaij**(2.+gamma))**2
+		if (s <= (A/thetaij**gamma)**2):
+			sum += s
 	fp.append(sum)
 	f+=sum
-print f
+print nbar*np.sqrt(f)
 delta=np.array(delta)
 fp=np.array(fp)
 plt.scatter(delta,2*3.14159*delta**2*fp)
