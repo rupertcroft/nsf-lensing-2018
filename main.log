@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 NOV 2018 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 NOV 2018 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,7 +402,19 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \cur@col=\count162
 \conditionsep=\skip69
 )
-\c@dummy=\count163
+(/usr/local/texlive/2017/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen181
+\WF@size=\dimen182
+\c@WF@wrappedlines=\count163
+\WF@box=\box50
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count164
+)
+\c@dummy=\count165
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -414,18 +426,18 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count164
-\Gm@cntv=\count165
-\c@Gm@tempcnt=\count166
-\Gm@bindingoffset=\dimen181
-\Gm@wd@mp=\dimen182
-\Gm@odd@mp=\dimen183
-\Gm@even@mp=\dimen184
-\Gm@layoutwidth=\dimen185
-\Gm@layoutheight=\dimen186
-\Gm@layouthoffset=\dimen187
-\Gm@layoutvoffset=\dimen188
-\Gm@dimlist=\toks23
+\Gm@cnth=\count166
+\Gm@cntv=\count167
+\c@Gm@tempcnt=\count168
+\Gm@bindingoffset=\dimen183
+\Gm@wd@mp=\dimen184
+\Gm@odd@mp=\dimen185
+\Gm@even@mp=\dimen186
+\Gm@layoutwidth=\dimen187
+\Gm@layoutheight=\dimen188
+\Gm@layouthoffset=\dimen189
+\Gm@layoutvoffset=\dimen190
+\Gm@dimlist=\toks24
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pslatex/pslatex.sty
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
@@ -464,37 +476,37 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 130.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 13
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 140.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 14
 0.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count167
-\scratchdimen=\dimen189
-\scratchbox=\box50
-\nofMPsegments=\count168
-\nofMParguments=\count169
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count170
-\MPscratchDim=\dimen190
-\MPnumerator=\count171
-\makeMPintoPDFobject=\count172
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count169
+\scratchdimen=\dimen191
+\scratchbox=\box51
+\nofMPsegments=\count170
+\nofMParguments=\count171
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count172
+\MPscratchDim=\dimen192
+\MPnumerator=\count173
+\makeMPintoPDFobject=\count174
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -543,6 +555,7 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -580,7 +593,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 (./overview.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -695,16 +708,25 @@ nput line 199.
 
 [6]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 227.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 226.
 
-) (./introtimedelay.tex
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-) (./simulations.tex
+) (./introtimedelay.tex <td.pdf, id=73, 241.38683pt x 253.84557pt>
+File: td.pdf Graphic file (type pdf)
+
+<use td.pdf>
+Package pdftex.def Info: td.pdf used on input line 5.
+(pdftex.def)             Requested size: 191.19963pt x 201.07417pt.
+ <./TT1.png, id=74, 787.0203pt x 507.3354pt>
+File: ./TT1.png Graphic file (type png)
+ <use ./TT1.png>
+Package pdftex.def Info: ./TT1.png used on input line 18.
+(pdftex.def)             Requested size: 430.20282pt x 277.3245pt.
+)
+(./simulations.tex [7 <./td.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8]) (./estimators.tex [9] [10]) (./observations.tex
+[8 <./TT1.png>] [9]) (./estimators.tex [10] [11]) (./observations.tex
 Package epstopdf Info: Source file: <figs/eBOSS.eps>
 (epstopdf)                    date: 2018-11-08 11:26:22
 (epstopdf)                    size: 2922665 bytes
@@ -716,7 +738,7 @@ o.pdf figs/eBOSS.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eBOSS-eps-converted-to.pdf, id=86, 578.16pt x 433.62pt>
+<figs/eBOSS-eps-converted-to.pdf, id=103, 578.16pt x 433.62pt>
 File: figs/eBOSS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eBOSS-eps-converted-to.pdf>
@@ -734,7 +756,7 @@ Package epstopdf Info: Source file: <figs/CLAMATO.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/CLAMATO-eps-converted-to.pdf, id=87, 578.16pt x 433.62pt>
+<figs/CLAMATO-eps-converted-to.pdf, id=104, 578.16pt x 433.62pt>
 File: figs/CLAMATO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/CLAMATO-eps-converted-to.pdf>
@@ -746,33 +768,33 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 13--25
 [][] [] 
  []
 
-[11 <./figs/eBOSS-eps-converted-to.pdf> <./figs/CLAMATO-eps-converted-to.pdf>]
-<figs/GRP_512_15_z1.png, id=97, 719.68875pt x 575.14874pt>
+[12 <./figs/eBOSS-eps-converted-to.pdf> <./figs/CLAMATO-eps-converted-to.pdf>]
+<figs/GRP_512_15_z1.png, id=114, 719.68875pt x 575.14874pt>
 File: figs/GRP_512_15_z1.png Graphic file (type png)
 
 <use figs/GRP_512_15_z1.png>
 Package pdftex.def Info: figs/GRP_512_15_z1.png used on input line 79.
 (pdftex.def)             Requested size: 215.9083pt x 172.54594pt.
 
-<figs/GRP_512_15_z1_Recov.png, id=98, 719.68875pt x 575.14874pt>
+<figs/GRP_512_15_z1_Recov.png, id=115, 719.68875pt x 575.14874pt>
 File: figs/GRP_512_15_z1_Recov.png Graphic file (type png)
 
 <use figs/GRP_512_15_z1_Recov.png>
 Package pdftex.def Info: figs/GRP_512_15_z1_Recov.png used on input line 80.
 (pdftex.def)             Requested size: 215.9083pt x 172.54594pt.
 ) (./cosmology.tex) (./broaderimpact.tex
-[12 <./figs/GRP_512_15_z1.png> <./figs/GRP_512_15_z1_Recov.png>]
+[13 <./figs/GRP_512_15_z1.png> <./figs/GRP_512_15_z1_Recov.png>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
-
-<figs/myoglobin.jpg, id=102, 482.55281pt x 271.76532pt>
+ [14]
+<figs/myoglobin.jpg, id=123, 482.55281pt x 271.76532pt>
 File: figs/myoglobin.jpg Graphic file (type jpg)
 
 <use figs/myoglobin.jpg>
 Package pdftex.def Info: figs/myoglobin.jpg used on input line 79.
 (pdftex.def)             Requested size: 213.39566pt x 120.17839pt.
- <figs/mcedit.jpg, id=103, 622.57594pt x 327.47343pt>
+ <figs/mcedit.jpg, id=124, 622.57594pt x 327.47343pt>
 File: figs/mcedit.jpg Graphic file (type jpg)
 
 <use figs/mcedit.jpg>
@@ -787,45 +809,48 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- [13]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
- [14 <./figs/myoglobin.jpg> <./figs/mcedit.jpg>])
-(./timeline.tex) (./priornsf.tex [15]) [16] (./main.bbl [17] [18]
+ [15 <./figs/myoglobin.jpg> <./figs/mcedit.jpg>])
+(./timeline.tex) (./priornsf.tex [16]) [17] (./main.bbl [18] [19]
 Missing character: There is no ‚ in font ptmri7t!
 Missing character: There is no Ä in font ptmri7t!
 Missing character: There is no ì in font ptmri7t!
 Missing character: There is no ‚ in font ptmri7t!
 Missing character: There is no Ä in font ptmri7t!
 Missing character: There is no ì in font ptmri7t!
- [19])
+ [20])
 
 Package natbib Warning: There were undefined citations.
 
-[20] (./main.aux) ) 
+[21] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 12631 strings out of 492995
- 222552 string characters out of 6132704
- 266520 words of memory out of 5000000
- 15994 multiletter control sequences out of 15000+600000
- 63484 words of font info for 122 fonts, out of 8000000 for 9000
+ 12896 strings out of 492995
+ 225780 string characters out of 6132704
+ 368669 words of memory out of 5000000
+ 16248 multiletter control sequences out of 15000+600000
+ 63784 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,10n,42p,10351b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.
-enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex
-9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 3256304 bytes).
+ 44i,10n,42p,10371b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on main.pdf (21 pages, 3478986 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 179 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

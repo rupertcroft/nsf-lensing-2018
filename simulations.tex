@@ -3,9 +3,9 @@
 We will carry out a significant portion of our research using
  simulations and mock catalogs.
 For the forest lensing we will build on our successful
-linear theory tests (C18). For LIA
-we propose to carry out detailed studies of the feasibility of
-detection of the effect. First, we will refine the estimate 
+linear theory tests (C18). For galaxy clustering,
+we will use many of the same simulations and tools. 
+First, we will refine the estimate 
 in \S\ref{sec:lia} by accounting for: cosmic variance as an
 additional source of noise (although this should not have too large
 of an impact on the small scales of interest), more realistic cluster
@@ -16,7 +16,7 @@ photometric red shift errors and binning.
 
 
 Unlike CMB lensing, the assumption of a initially Gaussian {\it source}
-field is not a good one for our new weak lensing tracers. 
+field is not a good one for the first two of our weak lensing tracers. 
 The foreground lens density field is also
 at lower redshift that in the CMB case, meaning that the {\it lens}
 density fluctuations will also be further into the non-linear regime. Mock
@@ -146,7 +146,8 @@ are due to continuum fitting.
 
 \subsection{Galaxy sources}
 \label{galaxysourcesims}
-In our study of LIA it is important to resolve large-scale structure
+In our study of \atf\ of galaxies
+ it is important to resolve large-scale structure
 in the galaxy distribution but galaxy shapes themselves are not needed.
 A number of suitable N-body simulations are therefore 
 available to use, for example
@@ -161,10 +162,16 @@ Hydrodynamic simulations of small volumes are also available
 will be used as the source fields in lensing simulations of individual
 galaxy clusters in order to investigate baryon physics effects.
 
+\subsection{CMB time delay source field}
+Our main aim with the CMB time delay lensing probe is to make predictions
+for what will be possible with CMB S4 instruments. We will therefore
+simulate full sky CMB fields using HEALPix, as well as plane parallel
+source mocks which will be placed behind clusters in the lens simulations
+(below)
+
 
 \subsection{Simulated lenses}
-In situations such as forest lensing with widely spaced sightlines,
-the 
+In situations such as forest lensing with widely spaced sightlines, 
 the lensing field will be detected only on large angular scales 
 where the matter structure responsible for the lensing is linear to a
 reasonably good approximation. Our lens simulations (e.g. C18)
@@ -177,9 +184,10 @@ gradient of the potential using an FFT.  Points on the source planes
 are then displaced by the deflection to get the lensed image. 
 In the case of the forest, the deflection is applied to individual pixels
 (see Figure 1) in the forest source simulations
- and for LIA to galaxies described in Section \ref{galaxysourcesims}
+ and for \atf of galaxies to the galaxies 
+described in Section \ref{galaxysourcesims}
 We will start with a single lens plane approximation for the forest lensing
-case based on the linear fields. For the LIA with a cluster lens, the 
+case based on the linear fields. For the \atf\  with a cluster lens, the 
 simplest initial simulations will be of a single spherically  symmetric lens.
 
 In order to capture the true non-linearity inherent in the lens field,
@@ -200,8 +208,9 @@ of publicly available raytraced simulations (the Multi Dark Lens Simulations,
 this project. These include over 150 realizations of $\sim 10$ square
 degree fields carried out using fully sampled lightcone raytracing
 with 24 lens planes each. The simulations therefore cover both the
-redshift $z\sim1$ lenses relevant for forest lensing and the lower 
-redshift needed for LIA in the same simulation. They can be used to
+redshift $z > 1$ lenses relevant for CMB time delay 
+and forest lensing and the lower 
+redshift needed for galaxies in the same simulation. They can be used to
 test both, and in principle look at the overlap in lensing reconstruction
 (and lensing kernels) for the two methods. 
 
@@ -218,8 +227,8 @@ galaxy clusters) and others larger areas generated using the approximate
 techniques mentioned above.
 We will also incorporate addition levels of
 complexity and potential sources of systematic
-error, treating the addition of each in turn. For both types of
-lensing we consider, magnification will be important, as both source
+error, treating the addition of each in turn. 
+Magnification will be important, as both source
 galaxies and background quasars will be selected preferentially when
 they are lensed. The effects of photometric redshift uncertainties
 could also  be added 
