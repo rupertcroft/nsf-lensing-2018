@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[Abbott et~al.(2017)]{Abbott:2017wau}
@@ -142,6 +142,10 @@ Baxter, E.~J. et~al., 2015, \emph{{A Measurement of Gravitational Lensing of
   {Zuntz}, J., 2016, \emph{{The Dark Energy Survey: more than dark energy - an
   overview}}, \mnras, 460, 1270--1299.
 
+\bibitem[Elvin-Poole et~al.(2018)]{Elvin-Poole:2017xsf}
+Elvin-Poole, J. et~al., 2018, \emph{{Dark Energy Survey year 1 results: Galaxy
+  clustering for combined probes}}, Phys. Rev., D98~(4), 042006.
+
 \bibitem[{Giocoli} et~al.(2016)]{giocoli2016}
 {Giocoli}, C., {Jullo}, E., {Metcalf}, R.~B., {de la Torre}, S., {Yepes}, G.,
   {Prada}, F., {Comparat}, J., {G{\"o}ttlober}, S., {Kyplin}, A., {Kneib},
@@ -168,6 +172,10 @@ Baxter, E.~J. et~al., 2015, \emph{{A Measurement of Gravitational Lensing of
 {Hoekstra}, H. and {Jain}, B., 2008, \emph{{Weak Gravitational Lensing and Its
   Cosmological Applications}}, Annual Review of Nuclear and Particle Science,
   58, 99--123.
+
+\bibitem[Hu(2001)]{Hu:2001tn}
+Hu, W., 2001, \emph{{Mapping the dark matter through the cmb damping tail}},
+  Astrophys. J., 557, L79--L83.
 
 \bibitem[{Hu} and {Okamoto}(2002)]{okamoto}
 {Hu}, W. and {Okamoto}, T., 2002, \emph{{Mass Reconstruction with Cosmic

@@ -12,11 +12,14 @@ $\vec\theta_1$. In the isotropic case, the angular correlation function depends 
 between the two positions: $w=w(\vert\vec\theta_1-\vec\theta_2\vert)$. The \atf\ effect here means
 that $w$ depends also on the location on the sky.
 
-\begin{figure}
-  \begin{center}
-    \includegraphics[scale=0.33]{figs/clusterfig.jpg}
-  \end{center}
-  \caption{
+%\begin{figure}
+%  \begin{center}
+%    \includegraphics[scale=0.2]{figs/clusterfig.jpg}
+%  \end{center}
+\begin{wrapfigure}{R}{0.4\textwidth}
+\centering
+\includegraphics[width=0.4\textwidth]{clusterfig.jpg}
+  \caption{ \footnotesize
 {\bf Cartoon of the impact of a foreground lens on
   background galaxies.} All galaxies appear further away from the
   cluster center, their observed positions shifting as
@@ -26,7 +29,8 @@ lensing deflection is not shown to scale). The correlation function
 of the background galaxies will also be distorted by these deflection
 angles, and this is what we plan to measure.}
   \label{cluster}
-\end{figure}
+\end{wrapfigure}
+%\end{figure}
 
 This is simplest to envision and to measure when measuring $w$ behind a massive object such as a galaxy cluster. 
 Fig.~\ref{cluster} shows a schematic picture of this. For example, the positions of the two galaxies directly to the left of the cluster are deflected by different amounts (the one closest is deflected more than the one further away, so the observed distance between those two galaxies is {\it smaller} than it would be in the absence of lensing. The observed $w$ then is governed by the larger unlensed distance. Walking through this exercise for all pairs of galaxies in the picture make it clear that the observed $w$ will not depend on simply the observed angular distance between pairs of galaxies. Indeed, we argue that {\bf the 
@@ -194,11 +198,10 @@ then is \be \left(\frac{S}{N}\right)^2 = \sum_{ij}
 To make an estimate of the signal to noise, we need to insert information about the angular correlation function and the background galaxy density.
 For these purposes, we follow Section 9 of the LSST Science Book and assume
 \be
-w(\theta) = 0.36 \left( \frac{1'}{\theta} \right)^{0.8} \, \frac{0.1}{\Delta z}.
+w(\theta) = 0.36 \left( \frac{1'}{\theta} \right)^{0.8} \, \frac{0.1}{\Delta z}.\eql{wlsst}
 \ee
-As a sanity check, the slope and amplitude are consistent with the latest DES measurements \citep{Elvin-Poole:2017xsf} when projected to the source galaxy redshift width and bias. As an estimate of the current capabilities, we take the source galaxies in DES in the redshift bin $0.6<z<0.9$ with their number density of 1.5 per square arcminute.
-Most of the signal comes from pixels closest to the cluster center, so in this case including galaxies to only $2'$ is sufficient
-to capture 95\% of the signal. 
+As an estimate of the current capabilities, we take the source galaxies in DES in the redshift bin $0.6<z<0.9$ with their number density of 1.5 per square arcminute. As a sanity check, the slope and amplitude in \ec{wlsst} are consistent with the latest DES measurements \citep{Elvin-Poole:2017xsf} when projected to the source galaxy redshift width and bias. 
+In this simple example of a point mass, the signal falls off rapidly, so the estimate excludes regions close to the center to be conservative (these are the regions most likely to be impacted by contamination from cluster galaxies), but more realistic profiles will likely get more of the signal from galaxies out to radii similar to those used for shapes (~$\sim 5')$. The key advantage of this technique is that the signal depends on the number of pairs, so the signal to noise scales as $n$ not as the shape measurements, which scale as $n^{1/2}$, 
 %Fig.~\rf{fthij} shows $f_{ij}/\theta_{ij}$ ( which multiplies
 %$dw/d\ln(\theta)$ in the sum for all pairs of pixels. Of course pixels
 %closest to the center of the cluster contribute the most to the signal
@@ -211,7 +214,7 @@ to capture 95\% of the signal.
 %  $50$ square arcmin is used in the sum, with 169 pixels covering the
 %  area.}
 
-The results of this estimate are that {\bf the expected signal to noise is large}. Even for a current survey like DES, the signal to noise from a single tomographic bin with $0.6<z<0.9$, the expected signal to noise behind a single cluster is 0.7. Therefore, stacking only 200 clusters (the Year 1 catalog has closer to 10,000) leads to a 10\% mass determination. With its more precise photometric redshifts and larger background galaxy density, {\bf LSST could measure the mass of a single cluster with 10\% uncertainty} using the \atf\ technique.
+The results of this estimate are that {\bf the expected signal to noise is large}. Even for a current survey like DES, the signal to noise from a single tomographic bin with $0.6<z<0.9$, the expected signal to noise behind a single cluster is 0.3. Therefore, stacking only 1000 clusters (the Year 1 catalog has closer to 10,000) leads to a 10\% mass determination. With its more precise photometric redshifts and larger background galaxy density, {\bf LSST could measure the mass of a single cluster with 10\% uncertainty} using the \atf\ technique.
 
 %In the example depicted in the figure, the total signal to noise is
 %equal to \be \frac{S}{N} = 0.02 \frac{\bar n}{{\rm gal}/(1')^2}

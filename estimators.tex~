@@ -13,10 +13,9 @@ In our proposed work, we will further develop estimators
 of the type that have been applied to the CMB but specialized to our
 new tracers (for example the discrete sightlines of the \lya\ forest).
 
-\subsection{Estimators for anisotropic galaxy clustering}
+\subsection{Estimators for Lensing anisotropy of galaxy clustering}
 
-In the case of \atf\ of galaxies
- we will be concentrating first on detecting and
+In the case of LIA we will be concentrating first on detecting and
 measuring the lensing signal of stacked galaxy clusters..
 The simplest estimator to try first is a parametric model with,
 e.g., the mass and concentration of the clusters set as free
@@ -45,21 +44,8 @@ needed to process full mock and observational datasets.
 
 \subsection{Mitigating systematics: the road to precision cosmology}
 
-Our simulation tests with realistic sources and lens fields will
-reveal the extent to which non linearity and non Gaussianity affect
-the lens reconstructions. We will seek to develop methods to mitigate
-these effects. For example, in CMB lensing \cite{lewis16} have shown
-how the effects of non Gaussian deflections from post-Born corrections
-and non-linear structure growth can be can be severely reduced by
-Gaussian smoothing. Also for CMB lensing, \cite{bohm18} have shown
-that results from raytraced simulations can be accounted for and
-corrected using analytic results (\cite{bohm16}). Although in the CMB
-these issues are at the $\sim0.3 \%$ level in the power spectrum, they
-will be a more significant issue with our lower redshift lensing
-tracers and should be addressed as we seek to develop them as new
-tools for precision cosmology. We will use the CMB lensing work as a
-guide to push the precision of our work to below the level of the
-simulated systematics.
+Our simulation tests with realistic sources and lens fields will reveal the extent to which non linearity and non Gaussianity
+affect the lens reconstructions. We will seek to develop methods to mitigate these effects. For example, in CMB lensing \cite{lewis16} have shown how the effects of non Gaussian deflections from post-Born corrections and non-linear structure growth can be can be severely reduced by Gaussian smoothing. Also for CMB lensing, \cite{bohm18} have shown that results from raytraced simulations can be accounted for and corrected using  analytic results (\cite{bohm16}). Although in the CMB these issues are at the $\sim0.3 \%$ level in the power spectrum, they will be a more significant issue with our lower redshift lensing tracers and should be addressed as we seek to develop them as new tools for precision cosmology. We will use the CMB lensing work as a guide to push the precision of our work to below the level of the simulated systematics.
 
 \subsection{Cross-correlation and validation}
 As our lensing techniques are new, an important part of our studies will

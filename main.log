@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 NOV 2018 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 NOV 2018 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,16 +635,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./table
-.pdf>]
-
-Package natbib Warning: Citation `Hu:2001tn' on page 2 undefined on input line 
-20.
-
-
-Package natbib Warning: Citation `Hu:2001tn' on page 2 undefined on input line 
-37.
-
-) (./introlya.tex
+.pdf>]) (./introlya.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
  [2]
@@ -698,35 +689,27 @@ LaTeX Warning: Command \c invalid in math mode on input line 128.
 File: figs/clusterfig.jpg Graphic file (type jpg)
 
 <use figs/clusterfig.jpg>
-Package pdftex.def Info: figs/clusterfig.jpg used on input line 17.
-(pdftex.def)             Requested size: 288.50876pt x 187.14977pt.
+Package pdftex.def Info: figs/clusterfig.jpg used on input line 21.
+(pdftex.def)             Requested size: 191.19963pt x 124.0223pt.
  [4 <./figs/lensdiagram-eps-converted-to.pdf> <./figs/angdiag-eps-converted-to.
 pdf>] [5 <./figs/clusterfig.jpg>]
-
-Package natbib Warning: Citation `Elvin-Poole:2017xsf' on page 6 undefined on i
-nput line 199.
-
-[6]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 226.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 230.
 
-) (./introtimedelay.tex <td.pdf, id=73, 241.38683pt x 253.84557pt>
+ [6])
+(./introtimedelay.tex <td.pdf, id=73, 241.38683pt x 253.84557pt>
 File: td.pdf Graphic file (type pdf)
-
-<use td.pdf>
+ <use td.pdf>
 Package pdftex.def Info: td.pdf used on input line 5.
 (pdftex.def)             Requested size: 191.19963pt x 201.07417pt.
- <./TT1.png, id=74, 787.0203pt x 507.3354pt>
-File: ./TT1.png Graphic file (type png)
- <use ./TT1.png>
-Package pdftex.def Info: ./TT1.png used on input line 18.
-(pdftex.def)             Requested size: 430.20282pt x 277.3245pt.
-)
-(./simulations.tex [7 <./td.pdf>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./TT1.png>] [9]) (./estimators.tex [10] [11]) (./observations.tex
+<TT1.png, id=74, 787.0203pt x 507.3354pt>
+File: TT1.png Graphic file (type png)
+ <use TT1.png>
+Package pdftex.def Info: TT1.png used on input line 28.
+(pdftex.def)             Requested size: 191.19963pt x 123.24931pt.
+) (./simulations.tex
+[7 <./td.pdf>] [8 <./TT1.png>] [9]) (./estimators.tex [10]) (./observations.tex
 Package epstopdf Info: Source file: <figs/eBOSS.eps>
 (epstopdf)                    date: 2018-11-08 11:26:22
 (epstopdf)                    size: 2922665 bytes
@@ -737,8 +720,7 @@ Package epstopdf Info: Source file: <figs/eBOSS.eps>
 o.pdf figs/eBOSS.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
-
-<figs/eBOSS-eps-converted-to.pdf, id=103, 578.16pt x 433.62pt>
+<figs/eBOSS-eps-converted-to.pdf, id=100, 578.16pt x 433.62pt>
 File: figs/eBOSS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eBOSS-eps-converted-to.pdf>
@@ -756,7 +738,7 @@ Package epstopdf Info: Source file: <figs/CLAMATO.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/CLAMATO-eps-converted-to.pdf, id=104, 578.16pt x 433.62pt>
+<figs/CLAMATO-eps-converted-to.pdf, id=101, 578.16pt x 433.62pt>
 File: figs/CLAMATO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/CLAMATO-eps-converted-to.pdf>
@@ -768,33 +750,39 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 13--25
 [][] [] 
  []
 
-[12 <./figs/eBOSS-eps-converted-to.pdf> <./figs/CLAMATO-eps-converted-to.pdf>]
-<figs/GRP_512_15_z1.png, id=114, 719.68875pt x 575.14874pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] <figs/GRP_512_15_z1.png, id=105, 719.68875pt x 575.14874pt>
 File: figs/GRP_512_15_z1.png Graphic file (type png)
 
 <use figs/GRP_512_15_z1.png>
 Package pdftex.def Info: figs/GRP_512_15_z1.png used on input line 79.
 (pdftex.def)             Requested size: 215.9083pt x 172.54594pt.
 
-<figs/GRP_512_15_z1_Recov.png, id=115, 719.68875pt x 575.14874pt>
+<figs/GRP_512_15_z1_Recov.png, id=106, 719.68875pt x 575.14874pt>
 File: figs/GRP_512_15_z1_Recov.png Graphic file (type png)
 
 <use figs/GRP_512_15_z1_Recov.png>
 Package pdftex.def Info: figs/GRP_512_15_z1_Recov.png used on input line 80.
 (pdftex.def)             Requested size: 215.9083pt x 172.54594pt.
 ) (./cosmology.tex) (./broaderimpact.tex
+[12 <./figs/eBOSS-eps-converted-to.pdf> <./figs/CLAMATO-eps-converted-to.pdf>]
 [13 <./figs/GRP_512_15_z1.png> <./figs/GRP_512_15_z1_Recov.png>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
- [14]
-<figs/myoglobin.jpg, id=123, 482.55281pt x 271.76532pt>
+
+<figs/myoglobin.jpg, id=120, 482.55281pt x 271.76532pt>
 File: figs/myoglobin.jpg Graphic file (type jpg)
 
 <use figs/myoglobin.jpg>
 Package pdftex.def Info: figs/myoglobin.jpg used on input line 79.
 (pdftex.def)             Requested size: 213.39566pt x 120.17839pt.
- <figs/mcedit.jpg, id=124, 622.57594pt x 327.47343pt>
+ <figs/mcedit.jpg, id=121, 622.57594pt x 327.47343pt>
 File: figs/mcedit.jpg Graphic file (type jpg)
 
 <use figs/mcedit.jpg>
@@ -809,11 +797,12 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
+ [14 <./figs/myoglobin.jpg> <./figs/mcedit.jpg>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
- [15 <./figs/myoglobin.jpg> <./figs/mcedit.jpg>])
-(./timeline.tex) (./priornsf.tex [16]) [17] (./main.bbl [18] [19]
+)
+(./timeline.tex [15]) (./priornsf.tex [16]) [17] (./main.bbl [18] [19]
 Missing character: There is no ‚ in font ptmri7t!
 Missing character: There is no Ä in font ptmri7t!
 Missing character: There is no ì in font ptmri7t!
@@ -821,33 +810,26 @@ Missing character: There is no ‚ in font ptmri7t!
 Missing character: There is no Ä in font ptmri7t!
 Missing character: There is no ì in font ptmri7t!
  [20])
-
-Package natbib Warning: There were undefined citations.
-
-[21] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[21] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 12896 strings out of 492995
- 225780 string characters out of 6132704
- 368669 words of memory out of 5000000
- 16248 multiletter control sequences out of 15000+600000
- 63784 words of font info for 123 fonts, out of 8000000 for 9000
+ 12902 strings out of 492995
+ 225885 string characters out of 6132704
+ 368728 words of memory out of 5000000
+ 16252 multiletter control sequences out of 15000+600000
+ 64897 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,42p,10371b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 3478986 bytes).
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.
+enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex
+9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (21 pages, 3479534 bytes).
 PDF statistics:
  179 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams

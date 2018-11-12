@@ -98,19 +98,24 @@ however lead to a precise measurement of the power spectrum.
 The right panel of Figure \ref{pkpred} shows our prediction from 
 \cite{metcalfandcroft}, which yields a 3\% measurement of $\sigma_{8}$.
 
-\subsection{DES clusters: first detection of lensing anisotropies in
-galaxy clustering}
+\subsection{DES clusters: precision stacked cluster mass profiles}
 
 Once tested on simulations, we will apply our
-LIA method to clusters in the Dark Energy Survey \cite{des2016},
+\atf\  method to clusters in the Dark Energy Survey \cite{des2016},
 for which the Co-I is co-Chair of the Science Committee. 
-As we have shown in Section \ref{sec:lia}, ample signal to noise will be
-available given the more than tens of  thousands of galaxy clusters 
-that will be selected using the redMaPPer algorithm~\cite{melchior2017}.
-Comparison will be made to the shear-based
+As we have shown in Section \ref{sec:lia}, high signal to noise will be
+available given that even the year one catalog contains tens of  
+thousands of galaxy clusters 
+that are selected using the redMaPPer algorithm~\cite{melchior2017}.
+Indeed, the amplitude of the stacked cluster profile from year 1 DES data
+will have a statistical precision of $1.5 \%$, easily in the 
+regime where systematic errors of all methods (such as shear and
+lensing magnification) are important, showing that a new method will
+be extremely valuable. Along these liness, comparison will 
+be made to the shear-based
 mass measurements of the same clusters \cite{simet2017} and with
 estimates of their mass inferred from the angular clustering
-of clusters \cite{baxter2016}.
+of clusters themselves \cite{baxter2016}.
 The estimator codebase developed and used on DES data will
 be released to the community so that it can be used, for example, by
 all members of the LSST Dark Energy Science Collaboration.
