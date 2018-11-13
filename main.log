@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 NOV 2018 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 NOV 2018 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,9 +769,9 @@ File: figs/GRP_512_15_z1_Recov.png Graphic file (type png)
 <use figs/GRP_512_15_z1_Recov.png>
 Package pdftex.def Info: figs/GRP_512_15_z1_Recov.png used on input line 80.
 (pdftex.def)             Requested size: 215.9083pt x 172.54594pt.
-) (./cosmology.tex) (./broaderimpact.tex
-[12 <./figs/eBOSS-eps-converted-to.pdf> <./figs/CLAMATO-eps-converted-to.pdf>]
-[13 <./figs/GRP_512_15_z1.png> <./figs/GRP_512_15_z1_Recov.png>]
+) (./broaderimpact.tex [12 <./figs/eBOSS-eps-converted-to.pdf> <./figs/CLAMATO-
+eps-converted-to.pdf>] [13 <./figs/GRP_512_15_z1.png> <./figs/GRP_512_15_z1_Rec
+ov.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -802,18 +802,18 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 )
-(./timeline.tex [15]) (./priornsf.tex [16]) [17] (./main.bbl [18] [19]
+(./timeline.tex [15]) (./priornsf.tex) [16] (./main.bbl [17] [18]
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no “ in font ptmri7t!
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no “ in font ptmri7t!
- [20])
-[21] (./main.aux) ) 
+ [19])
+[20] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 12902 strings out of 492995
- 225885 string characters out of 6132704
+ 12899 strings out of 492995
+ 225848 string characters out of 6132704
  368728 words of memory out of 5000000
  16252 multiletter control sequences out of 15000+600000
  64897 words of font info for 125 fonts, out of 8000000 for 9000
@@ -829,10 +829,10 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 3479534 bytes).
+Output written on main.pdf (20 pages, 3477767 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
+ 176 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

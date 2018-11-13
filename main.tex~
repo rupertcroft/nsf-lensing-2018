@@ -11,12 +11,14 @@
 \usepackage{caption}
 \usepackage{amsmath}
 \usepackage{breqn}
+\usepackage{wrapfig}
+\usepackage{lipsum}
 
 \newcounter{dummy}
 \def\@biblabel#1{\hspace*{\labelsep}[#1]}
 
 \newcommand{\df}{\delta_{\rm F}}
-
+\newcommand\atf{ATF}
 
 \def\lya{Ly$\alpha$}
 \def\lyb{Ly$\beta$}
@@ -62,6 +64,14 @@
     \label{fig:#1}
     \end{figure}
 }
+\newcommand{\Spng}[2]{
+    \begin{figure}[htb]
+    \sfig{./#1.png}{.9\columnwidth}
+    \caption{{\small #2}}
+    \label{fig:#1}
+    \end{figure}
+}
+
 \newcommand{\Sfigtwo}[3]{
         \begin{figure}[htbp]
 \sfig{#1.eps}{.3\columnwidth}
