@@ -2,7 +2,6 @@
 
 %\subsubsection{Motivation}
 
-\subsubsection{The Effect}
 The simplest statistic that
 characterizes the angular distribution of galaxies on the sky is the
 angular correlation function, $w(\vec\theta_1,\vec\theta_2)$, which
@@ -18,7 +17,7 @@ that $w$ depends also on the location on the sky.
 %  \end{center}
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
-\includegraphics[width=0.4\textwidth]{clusterfig.jpg}
+\includegraphics[width=0.4\textwidth]{figs/clusterfig.jpg}
   \caption{ \footnotesize
 {\bf Cartoon of the impact of a foreground lens on
   background galaxies.} All galaxies appear further away from the

@@ -9,7 +9,7 @@ inform our estimates of errors and uncertainties.
 
 
 
-\begin{figure}
+\begin{figure}[h]
  \includegraphics[width=0.5\columnwidth]{figs/eBOSS.eps}
  \includegraphics[width=0.5\columnwidth]{figs/CLAMATO.eps}
  \caption{ \footnotesize {\bf The predicted lensing displacement power spectrum  measured
@@ -29,7 +29,7 @@ d $\Delta z = 0.1$ (higher) cases.  Where $N_D$ is below $C_D$ high fidelity map
 
 
 
-\begin{table}
+\begin{table}[h]
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 Dataset   & When      & Area            & N_{\rm spectra} & mean separation \\ \hline

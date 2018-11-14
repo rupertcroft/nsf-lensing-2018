@@ -4,27 +4,15 @@ Reconstructing the lensing mass distribution from observations
 (and making maps, or measuring
 clustering statistics or object properties directly) requires  an
 estimator. 
-A quadratic lensing estimator (e.g., \cite{okamoto}) for the forest or for LIA
+A quadratic lensing estimator (e.g., \cite{okamoto}) 
 is sensitive to variations in the power spectrum in  different 
 regions of the sky.  These spatial variations result in
 correlations in Fourier modes (or $C_\ell$'s) that would not
 exist otherwise. 
-In our proposed work, we will further develop estimators
+We propose to further develop estimators
 of the type that have been applied to the CMB but specialized to our
 new tracers (for example the discrete sightlines of the \lya\ forest).
 
-\subsection{Estimators for anisotropic galaxy clustering}
-
-In the case of \atf\ of galaxies
- we will be concentrating first on detecting and
-measuring the lensing signal of stacked galaxy clusters..
-The simplest estimator to try first is a parametric model with,
-e.g., the mass and concentration of the clusters set as free
-parameters. The data points will be   $N_{\rm pix}^2/2$
-estimates of $\hat w$, and these
-can be used to constrain the parameters.
-We will also explore maximum likelihood methods
-that do not rely on the small angle approximation.
 
 \subsection{Estimators for \lya\ forest lensing}
 In C18 it was found that the standard quadratic estimator works 
@@ -43,11 +31,35 @@ present tests on small (million pixel) simulations have shown success and
 during this proposal we will improve the code and scale up to the capabilities
 needed to process full mock and observational datasets.
 
+
+\subsection{Estimators for anisotropic galaxy clustering}
+
+In the case of \atf\ of galaxies
+ we will be concentrating first on detecting and
+measuring the lensing signal of stacked galaxy clusters..
+The simplest estimator to try first is a parametric model with,
+e.g., the mass and concentration of the clusters set as free
+parameters. The data points will be   $N_{\rm pix}^2/2$
+estimates of $\hat w$, and these
+can be used to constrain the parameters.
+We will also explore maximum likelihood methods
+that do not rely on the small angle approximation.
+
+
+\subsection{Estimators for Time Delay}
+
+Two roads diverged in a yellow wood,\\
+And sorry I could not travel both\\
+And be one traveler, long I stood\\
+And looked down one as far as I could\\
+To where it bent in the undergrowth; \\
+
+
 \subsection{Mitigating systematics: the road to precision cosmology}
 
 Our simulation tests with realistic sources and lens fields will
 reveal the extent to which non linearity and non Gaussianity affect
-the lens reconstructions. We will seek to develop methods to mitigate
+the lens reconstructions. We will  develop methods to mitigate
 these effects. For example, in CMB lensing \cite{lewis16} have shown
 how the effects of non Gaussian deflections from post-Born corrections
 and non-linear structure growth can be can be severely reduced by
