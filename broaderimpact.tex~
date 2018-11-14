@@ -18,7 +18,7 @@ focuses not on general computer and video games, but on educational games,
 and the ideas we incorporate are 
 grounded in a theory of intrinsically motivating instruction 
 (Malone 1981, Gee 2003,
-Squire 2003, Aldrich 2004, Schell 2008). The documented benefits of gaming
+Squire 2003, Aldrich 2004, \cite{Schell08}). The documented benefits of gaming
 in education have been widely studied, and can be summarized by the 
 literature review of \cite{Backlund}. These authors aggregated 40 published
 studies on 
@@ -104,8 +104,8 @@ for studying quantum mechanics (q-Craft Curriculum Project) and
 testing gravity (Rhett Alain, Wired) in Minecraft. Gamers enjoy making
 maps, building things and solving puzzles.  Our Minecraft Astronomy
 elementary school tutorial will give instructions on how to build a
-rocket and how to use it to navigate a map of the Universe hosted on
-our server. Our middle school tutorial will include plans to build a
+rocket and how to use it to navigate a map of the Universe. 
+Our middle school tutorial will include plans to build a
 telescope and how to use it to find the atoms that make up our
 Universe. Self-driven inquiry leads to locations on our maps where the
 content is kept up-to-date.  Blog posts will connect users, guide them

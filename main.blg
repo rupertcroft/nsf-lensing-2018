@@ -3,23 +3,23 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: mynsf.bst
 Database file #1: lensingbib.bib
-Repeated entry---line 669 of file lensingbib.bib
+Repeated entry---line 702 of file lensingbib.bib
  : @article{Baxter:2017ixz
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 681 of file lensingbib.bib
+Repeated entry---line 714 of file lensingbib.bib
  : @article{Manzotti:2017net
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 699 of file lensingbib.bib
+Repeated entry---line 732 of file lensingbib.bib
  : @article{Baxter:2014frs
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 717 of file lensingbib.bib
+Repeated entry---line 750 of file lensingbib.bib
  : @article{Abbott:2017wau
  :                        ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1062 of file lensingbib.bib
+I was expecting a `,' or a `}'---line 1095 of file lensingbib.bib
  : 
  : @ARTICLE{peeples10,
 (Error may have been on previous line)
@@ -101,45 +101,45 @@ while executing---line 1342 of file mynsf.bst
 Warning--empty year in busca2013
 Warning--empty title in busca2013
 Warning--empty journal in busca2013
-You've used 61 entries,
+You've used 64 entries,
             2471 wiz_defined-function locations,
-            896 strings with 21970 characters,
-and the built_in function-call counts, 46580 in all, are:
-= -- 2843
-> -- 3053
-< -- 20
-+ -- 1214
-- -- 1150
-* -- 4005
-:= -- 6923
-add.period$ -- 61
-call.type$ -- 61
-change.case$ -- 813
-chr.to.int$ -- 58
-cite$ -- 66
-duplicate$ -- 3378
-empty$ -- 3003
-format.name$ -- 1291
-if$ -- 8735
+            912 strings with 22306 characters,
+and the built_in function-call counts, 47628 in all, are:
+= -- 2909
+> -- 3074
+< -- 23
++ -- 1225
+- -- 1156
+* -- 4065
+:= -- 7094
+add.period$ -- 64
+call.type$ -- 64
+change.case$ -- 828
+chr.to.int$ -- 61
+cite$ -- 69
+duplicate$ -- 3483
+empty$ -- 3102
+format.name$ -- 1300
+if$ -- 8936
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1049
-newline$ -- 187
-num.names$ -- 183
-pop$ -- 1917
+missing$ -- 1073
+newline$ -- 196
+num.names$ -- 192
+pop$ -- 1956
 preamble$ -- 1
-purify$ -- 813
+purify$ -- 828
 quote$ -- 0
-skip$ -- 808
+skip$ -- 850
 stack$ -- 0
-substring$ -- 1628
-swap$ -- 2115
+substring$ -- 1663
+swap$ -- 2154
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 366
+type$ -- 384
 warning$ -- 5
-while$ -- 166
+while$ -- 172
 width$ -- 0
-write$ -- 663
+write$ -- 696
 (There were 41 error messages)

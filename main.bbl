@@ -1,4 +1,4 @@
-\begin{thebibliography}{61}
+\begin{thebibliography}{64}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[Abbott et~al.(2017)]{Abbott:2017wau}
@@ -151,6 +151,10 @@ Baxter, E.~J. et~al., 2015, \emph{{A Measurement of Gravitational Lensing of
 \bibitem[Elvin-Poole et~al.(2018)]{Elvin-Poole:2017xsf}
 Elvin-Poole, J. et~al., 2018, \emph{{Dark Energy Survey year 1 results: Galaxy
   clustering for combined probes}}, Phys. Rev., D98~(4), 042006.
+
+\bibitem[Gee(2003)]{Gee03}
+Gee, J., 2003, \emph{What Video Games Have to Teach Us About Learning and
+  Literacy}, New York: Palgrave Macmillan, 09.
 
 \bibitem[{Giocoli} et~al.(2016)]{giocoli2016}
 {Giocoli}, C., {Jullo}, E., {Metcalf}, R.~B., {de la Torre}, S., {Yepes}, G.,
@@ -333,6 +337,10 @@ Rosas, R., Nussbaum, M., Cumsille, P., Marianov, V., Correa, M., Flores, P.,
   Ly{$\alpha$} Forest of a Lyman Break Galaxy: Very Large Telescope Spectra of
   MS 1512-cB58 at z=2.724}}, \apj, 567, 702--711.
 
+\bibitem[Schell(2008)]{Schell08}
+Schell, J., 2008, \emph{The Art of Game Design: A Book of Lenses}, Burlington,
+  MA, Morgan Kaufmann, 09.
+
 \bibitem[{Scranton} et~al.(2005)]{scranton2005}
 {Scranton}, R., {M{\'e}nard}, B., {Richards}, G.~T., {Nichol}, R.~C., {Myers},
   A.~D., {Jain}, B., {Gray}, A., {Bartelmann}, M., {Brunner}, R.~J.,
@@ -346,6 +354,10 @@ Rosas, R., Nussbaum, M., Cumsille, P., Marianov, V., Correa, M., Flores, P.,
   {Sheldon}, E., and {Wechsler}, R.~H., 2017, \emph{{Weak lensing measurement
   of the mass-richness relation of SDSS redMaPPer clusters}}, \mnras, 466,
   3103--3118.
+
+\bibitem[Squire(2003)]{Squire03}
+Squire, K., 2003, \emph{Design Principles of Next-Generation Digital Gaming for
+  Education}, Educational Technology (Sep-Oct 2003), 17.
 
 \bibitem[{Walsh} et~al.(1979)]{walsh1979}
 {Walsh}, D., {Carswell}, R.~F., and {Weymann}, R.~J., 1979, \emph{{0957 + 561
