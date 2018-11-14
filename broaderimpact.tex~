@@ -6,23 +6,26 @@ a good way to do just that- a  study from the  Pew Internet
 \& American Life 
 Project (Lenhart 2008) found that the percentage of American youth
 that play video games is almost the same for a wide range of racial and
-ethnic groups and incomes. The survey combined the telephone responses 
-from a nationally representative sample of 1,102 young people, ages 12 to 
-17, and their parents. It found that 99\% of boys and 94\% of girls
+ethnic groups and incomes. The survey covered a
+ nationally representative sample of 1,102 young people, ages 12 to 
+17. It found that 99\% of boys and 94\% of girls
 play video games, and they play them often, with  half of the respondents 
 saying they had played a video game the previous day. This adds up to
 over 200 million person-hours of video gaming each day in the U.S.
 
-Games are clearly entertaining as judged by their use, 
-but what if they had educational benefits? 
 Our proposal 
 focuses not on general computer and video games, but on educational games,
 and the ideas we incorporate are 
 grounded in a theory of intrinsically motivating instruction 
-based on a rigorous study of educational games 
 (Malone 1981, Gee 2003,
-Squire 2003, Aldrich 2004, Schell 2008).
-
+Squire 2003, Aldrich 2004, Schell 2008). The documented benefits of gaming
+in education have been widely studied, and can be summarized by the 
+literature review of \cite{Backlund}. These authors aggregated 40 published
+studies on 
+gaming's effectiveness in fields varying from Computer Science, 
+Language Learning, History, Mathematics, Chemistry and Physics, finding 
+overwhelmingly positive outcomes overall, and strong evidence that 
+education games can be effective learning materials in their own right.
 
 Through the medium of  games, our outreach aims are the following:\\
 \noindent {\bf (1a)} To introduce  elementary and middle
@@ -76,8 +79,8 @@ well as a plug-in to tailor the software to a specific curriculum.
 
 \begin{figure}%[ht!]
 \centering
-\includegraphics[width=75mm]{myoglobin.jpg}
-\includegraphics[width=80mm]{mcedit.jpg}
+\includegraphics[width=75mm]{figs/myoglobin.jpg}
+\includegraphics[width=80mm]{figs/mcedit.jpg}
 \caption{\footnotesize{{\bf Left:
 Minecraft visualization of myoglobin molecule} 
 Reproduced from the MolCraft project, University of Hull, UK

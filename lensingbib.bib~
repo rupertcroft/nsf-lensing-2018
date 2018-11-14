@@ -1,18 +1,3 @@
-@article{Rosas03,
-title = "Beyond Nintendo: design and assessment of educational video games for first and second grade students",
-journal = "Computers & Education",
-volume = "40",
-number = "1",
-pages = "71 - 94",
-year = "2003",
-issn = "0360-1315",
-doi = "https://doi.org/10.1016/S0360-1315(02)00099-4",
-url = "http://www.sciencedirect.com/science/article/pii/S0360131502000994",
-author = "Ricardo Rosas and Miguel Nussbaum and Patricio Cumsille and Vladimir Marianov and Mónica Correa and Patricia Flores and Valeska Grau and Francisca Lagos and Ximena López and Verónica López and Patricio Rodriguez and Marcela Salinas",
-abstract = "The main objective of this study was to evaluate the effects of the introduction of educational videogames into the classroom, on learning, motivation, and classroom dynamics. These effects were studied using a sample of 1274 students from economically disadvantaged schools in Chile. The videogames were specifically designed to address the educational goals of the first and second years of school, for basic mathematics and reading comprehension. The sample was divided into experimental groups (EG), internal control groups (IC) and external control groups (EC). Students in the EG groups, used the experimental video games during an average of 30 h over a 3-month period. They were evaluated on their acquisition of reading comprehension, spelling, and mathematical skills, and on their motivation to use video games. Teachers’ expectations of change due to the use of video games, their technological transfer, and handling of classroom dynamics, were assessed through ad hoc tests and classroom observations. The results show significant differences between the EG and IC groups in relation to the EC group in Math, Reading Comprehension and Spelling, but no significant differences in these aspects were found between the EG and the IC groups. Teacher reports and classroom observations confirm an improvement in motivation to learn, and a positive technological transfer of the experimental tool. Although further studies regarding the effects of learning through videogame use are imperative, positive effects on motivation and classroom dynamics, indicate that the introduction of educational video games can be a useful tool in promoting learning within the classroom."
-}
-
-
 @article{Backlund,
 author = {Backlund, Per and Hendrix, Maurice},
 year = {2013},

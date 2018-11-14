@@ -1,4 +1,4 @@
-\begin{thebibliography}{60}
+\begin{thebibliography}{61}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[Abbott et~al.(2017)]{Abbott:2017wau}
@@ -32,6 +32,12 @@ Abbott, T. M.~C. et~al., 2017, \emph{{Dark Energy Survey Year 1 Results:
   {Schneider}, D.~P., 2017{\natexlab{c}}, \emph{{Relativistic distortions in
   the large-scale clustering of SDSS-I II BOSS CMASS galaxies}}, \mnras, 470,
   2822--2833.
+
+\bibitem[Backlund and Hendrix(2013)]{Backlund}
+Backlund, P. and Hendrix, M., 2013, \emph{Educational Games - Are They Worth
+  the Effort? A Literature Survey of the Effectiveness of Serious Games}, Games
+  and Virtual Worlds for Serious Applications (VS-GAMES 2013 5th International
+  Conference on, 09, 1--8.
 
 \bibitem[{Baxter} et~al.(2016)]{baxter2016}
 {Baxter}, E.~J., {Rozo}, E., {Jain}, B., {Rykoff}, E., and {Wechsler}, R.~H.,
@@ -250,11 +256,6 @@ Liu, J. et~al., 2015, \emph{{Analysis of Sunyaev–Zel'dovich effect
   X-ray selected sample of low-mass galaxy clusters and groups}}, Mon. Not.
   Roy. Astron. Soc., 448~(3), 2085--2099.
 
-\bibitem[{Loverde} et~al.(2010)]{loverde2010}
-{Loverde}, M., {Marnerides}, S., {Hui}, L., {M{\'e}nard}, B., and {Lidz}, A.,
-  2010, \emph{{Gravitational lensing as signal and noise in Lyman-{$\alpha$}
-  forest measurements}}, \prd, 82~(10), 103507.
-
 \bibitem[Manzotti et~al.(2017)]{Manzotti:2017net}
 Manzotti, A. et~al., 2017, \emph{{CMB Polarization B-mode Delensing with SPTpol
   and Herschel}}, Astrophys. J., 846~(1), 45.
@@ -319,6 +320,13 @@ Manzotti, A. et~al., 2017, \emph{{CMB Polarization B-mode Delensing with SPTpol
 \bibitem[{Rauch}(1998)]{rauch1998}
 {Rauch}, M., 1998, \emph{{The Lyman Alpha Forest in the Spectra of QSOs}},
   \araa, 36, 267--316.
+
+\bibitem[Rosas et~al.(2003)]{Rosas03}
+Rosas, R., Nussbaum, M., Cumsille, P., Marianov, V., Correa, M., Flores, P.,
+  Grau, V., Lagos, F., López, X., López, V., Rodriguez, P., and Salinas, M.,
+  2003, \emph{Beyond Nintendo: design and assessment of educational video games
+  for first and second grade students}, Computers & Education, 40~(1), 71 --
+  94, ISSN 0360-1315.
 
 \bibitem[{Savaglio} et~al.(2002)]{savaglio2002}
 {Savaglio}, S., {Panagia}, N., and {Padovani}, P., 2002, \emph{{The
