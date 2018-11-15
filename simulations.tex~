@@ -17,14 +17,14 @@ photometric red shift errors and binning.
 
 Unlike CMB lensing, the assumption of a initially Gaussian {\it source}
 field is not a good one for the first two of our weak lensing tracers. 
-The foreground lens density field is also
+The foreground lens  field is also
 at lower redshift that in the CMB case, meaning that the {\it lens}
 density fluctuations will also be further into the non-linear regime. Mock
 observations that include these non-linearities are therefore crucial
 to test our methods. We will be working with a set of already run simulations
 as well as carrying out some new ones to set up a comprehensive set
-of realistic tests of lensing reconstruction and measurement. In this
-section of the proposal we outline  how we plan to do this, starting
+of realistic tests of lensing reconstruction and measurement. 
+We outline  here how we plan to do this, starting
 with the raw N-body and hydro simulations. In Table \ref{tab_runs} we list
 some of the privately run simulations available to the project. We will
 also make use of public simulation datasets such as \cite{giocoli2016}
