@@ -10,8 +10,8 @@ inform our estimates of errors and uncertainties.
 
 
 \begin{figure}[h]
- \includegraphics[width=0.5\columnwidth]{figs/eBOSS.eps}
- \includegraphics[width=0.5\columnwidth]{figs/CLAMATO.eps}
+ \includegraphics[width=0.45\columnwidth]{figs/eBOSS.eps}
+ \includegraphics[width=0.45\columnwidth]{figs/CLAMATO.eps}
  \caption{ \footnotesize {\bf The predicted lensing displacement power spectrum  measured
 from the \lya\ forest and its 
 estimated errors. }
@@ -76,8 +76,8 @@ measurement with cross-correlation should be straightforward.
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.3]{figs/GRP_512_15_z1.png}
-    \includegraphics[scale=0.3]{figs/GRP_512_15_z1_Recov.png}
+    \includegraphics[scale=0.25]{figs/GRP_512_15_z1.png}
+    \includegraphics[scale=0.25]{figs/GRP_512_15_z1_Recov.png}
   \end{center}
   \caption{ \footnotesize
 {\bf Recovery of the lensing potential field from a simulation of \lya\ forest
@@ -90,8 +90,7 @@ comparable to that in the CLAMATO survey, which we plan to analyze.
 \end{figure}
 
 \subsection{eBOSS: 3 percent precision on $\sigma_{8}$}
-The eBOSS survey is ongoing, but has completed more than two thirds its survey
-footprint and will be complete early in our project.
+The eBOSS survey is ongoing, but will be complete early in our project.
 It is a large area, low sightline density survey (see Table\ref{obs}), so
 that foreground mass maps will have low fidelity. The large area will
 however lead to a precise measurement of the power spectrum.

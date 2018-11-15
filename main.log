@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 NOV 2018 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 NOV 2018 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -571,7 +571,7 @@ Package caption Info: End \AtBeginDocument code.
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=478.00638pt
-* \textheight=691.40205pt
+* \textheight=694.24707pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
 * \topmargin=-23.91173pt
@@ -638,13 +638,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 .pdf>]) (./introlya.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+ [2]
 Package epstopdf Info: Source file: <figs/lensdiagram.eps>
 (epstopdf)                    date: 2018-11-08 11:26:22
 (epstopdf)                    size: 2060963 bytes
@@ -653,7 +653,7 @@ Package epstopdf Info: Source file: <figs/lensdiagram.eps>
 (epstopdf)                    size: 17513 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/lensdiagram-eps-conve
 rted-to.pdf figs/lensdiagram.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/lensdiagram-eps-converted-to.pdf, id=51, 714.67pt x 476.78125pt>
@@ -661,8 +661,8 @@ File: figs/lensdiagram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/lensdiagram-eps-converted-to.pdf>
 Package pdftex.def Info: figs/lensdiagram-eps-converted-to.pdf used on input li
-ne 98.
-(pdftex.def)             Requested size: 235.84183pt x 157.33829pt.
+ne 66.
+(pdftex.def)             Requested size: 214.40265pt x 143.03548pt.
 Package epstopdf Info: Source file: <figs/angdiag.eps>
 (epstopdf)                    date: 2018-11-08 11:26:22
 (epstopdf)                    size: 1843138 bytes
@@ -671,49 +671,48 @@ Package epstopdf Info: Source file: <figs/angdiag.eps>
 (epstopdf)                    size: 14333 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/angdiag-eps-converted
 -to.pdf figs/angdiag.eps>
-(epstopdf)             \includegraphics on input line 100.
+(epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/angdiag-eps-converted-to.pdf, id=52, 540.0175pt x 564.1075pt>
 File: figs/angdiag-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/angdiag-eps-converted-to.pdf>
-Package pdftex.def Info: figs/angdiag-eps-converted-to.pdf used on input line 1
-00.
-(pdftex.def)             Requested size: 178.20631pt x 186.15604pt.
+Package pdftex.def Info: figs/angdiag-eps-converted-to.pdf used on input line 6
+8.
+(pdftex.def)             Requested size: 162.0065pt x 169.23355pt.
+ [3 <./figs/lensdiagram-eps-converted-to.pdf> <./figs/angdiag-eps-converted-to.
+pdf>]
 
+LaTeX Warning: Command \c invalid in math mode on input line 129.
 
-LaTeX Warning: Command \c invalid in math mode on input line 127.
-
-[3]) (./introgalxi.tex <figs/clusterfig.jpg, id=57, 874.26625pt x 567.11874pt>
+) (./introgalxi.tex <figs/clusterfig.jpg, id=62, 874.26625pt x 567.11874pt>
 File: figs/clusterfig.jpg Graphic file (type jpg)
 
 <use figs/clusterfig.jpg>
 Package pdftex.def Info: figs/clusterfig.jpg used on input line 20.
 (pdftex.def)             Requested size: 191.19963pt x 124.0223pt.
- [4 <./figs/lensdiagram-eps-converted-to.pdf> <./figs/angdiag-eps-converted-to.
-pdf>] [5 <./figs/clusterfig.jpg>]
+ [4 <./figs/clusterfig.jpg>] [5]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 236.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 248.
 
 )
 (./introtimedelay.tex <td.pdf, id=70, 241.38683pt x 253.84557pt>
 File: td.pdf Graphic file (type pdf)
  <use td.pdf>
 Package pdftex.def Info: td.pdf used on input line 5.
-(pdftex.def)             Requested size: 191.19963pt x 201.07417pt.
+(pdftex.def)             Requested size: 119.50159pt x 125.66748pt.
 
-[6] <TT1.png, id=74, 787.0203pt x 507.3354pt>
+<TT1.png, id=71, 787.0203pt x 507.3354pt>
 File: TT1.png Graphic file (type png)
  <use TT1.png>
-Package pdftex.def Info: TT1.png used on input line 28.
+Package pdftex.def Info: TT1.png used on input line 7.
 (pdftex.def)             Requested size: 191.19963pt x 123.24931pt.
-) (./simulations.tex [7 <./td.pdf>] [8 <./TT1.png>] [9]) (./estimators.tex
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
+ [6 <./td.pdf> <./TT1.png>]) (./simulations.tex
 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]) (./observations.tex
+[7] [8]) (./estimators.tex [9] [10]) (./observations.tex
 Package epstopdf Info: Source file: <figs/eBOSS.eps>
 (epstopdf)                    date: 2018-11-08 11:26:22
 (epstopdf)                    size: 2922665 bytes
@@ -722,16 +721,16 @@ Package epstopdf Info: Source file: <figs/eBOSS.eps>
 (epstopdf)                    size: 86613 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/eBOSS-eps-converted-t
 o.pdf figs/eBOSS.eps>
-(epstopdf)             \includegraphics on input line 13.
+(epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eBOSS-eps-converted-to.pdf, id=100, 578.16pt x 433.62pt>
 File: figs/eBOSS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eBOSS-eps-converted-to.pdf>
-Package pdftex.def Info: figs/eBOSS-eps-converted-to.pdf used on input line 13.
+Package pdftex.def Info: figs/eBOSS-eps-converted-to.pdf used on input line 14.
 
-(pdftex.def)             Requested size: 239.00319pt x 179.24759pt.
+(pdftex.def)             Requested size: 191.19963pt x 143.3994pt.
 Package epstopdf Info: Source file: <figs/CLAMATO.eps>
 (epstopdf)                    date: 2018-11-08 11:26:22
 (epstopdf)                    size: 2922667 bytes
@@ -740,7 +739,7 @@ Package epstopdf Info: Source file: <figs/CLAMATO.eps>
 (epstopdf)                    size: 77712 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/CLAMATO-eps-converted
 -to.pdf figs/CLAMATO.eps>
-(epstopdf)             \includegraphics on input line 14.
+(epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/CLAMATO-eps-converted-to.pdf, id=101, 578.16pt x 433.62pt>
@@ -748,43 +747,36 @@ File: figs/CLAMATO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/CLAMATO-eps-converted-to.pdf>
 Package pdftex.def Info: figs/CLAMATO-eps-converted-to.pdf used on input line 1
-4.
-(pdftex.def)             Requested size: 239.00319pt x 179.24759pt.
+5.
+(pdftex.def)             Requested size: 191.19963pt x 143.3994pt.
+ [11 <./figs/eBOSS-eps-converted-to.pdf> <./figs/CLAMATO-eps-converted-to.pdf>]
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 13--25
-[][] [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11] <figs/GRP_512_15_z1.png, id=105, 719.68875pt x 575.14874pt>
+<figs/GRP_512_15_z1.png, id=111, 719.68875pt x 575.14874pt>
 File: figs/GRP_512_15_z1.png Graphic file (type png)
 
 <use figs/GRP_512_15_z1.png>
-Package pdftex.def Info: figs/GRP_512_15_z1.png used on input line 79.
-(pdftex.def)             Requested size: 215.9083pt x 172.54594pt.
+Package pdftex.def Info: figs/GRP_512_15_z1.png used on input line 81.
+(pdftex.def)             Requested size: 179.92174pt x 143.78683pt.
 
-<figs/GRP_512_15_z1_Recov.png, id=106, 719.68875pt x 575.14874pt>
+<figs/GRP_512_15_z1_Recov.png, id=112, 719.68875pt x 575.14874pt>
 File: figs/GRP_512_15_z1_Recov.png Graphic file (type png)
 
 <use figs/GRP_512_15_z1_Recov.png>
-Package pdftex.def Info: figs/GRP_512_15_z1_Recov.png used on input line 80.
-(pdftex.def)             Requested size: 215.9083pt x 172.54594pt.
-) (./broaderimpact.tex [12 <./figs/eBOSS-eps-converted-to.pdf> <./figs/CLAMATO-
-eps-converted-to.pdf>] [13 <./figs/GRP_512_15_z1.png> <./figs/GRP_512_15_z1_Rec
+Package pdftex.def Info: figs/GRP_512_15_z1_Recov.png used on input line 82.
+(pdftex.def)             Requested size: 179.92174pt x 143.78683pt.
+) (./broaderimpact.tex [12 <./figs/GRP_512_15_z1.png> <./figs/GRP_512_15_z1_Rec
 ov.png>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
 
-<figs/myoglobin.jpg, id=120, 482.55281pt x 271.76532pt>
+<figs/myoglobin.jpg, id=116, 482.55281pt x 271.76532pt>
 File: figs/myoglobin.jpg Graphic file (type jpg)
 
 <use figs/myoglobin.jpg>
 Package pdftex.def Info: figs/myoglobin.jpg used on input line 88.
 (pdftex.def)             Requested size: 213.39566pt x 120.17839pt.
- <figs/mcedit.jpg, id=121, 622.57594pt x 327.47343pt>
+ <figs/mcedit.jpg, id=117, 622.57594pt x 327.47343pt>
 File: figs/mcedit.jpg Graphic file (type jpg)
 
 <use figs/mcedit.jpg>
@@ -799,7 +791,7 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- [14 <./figs/myoglobin.jpg> <./figs/mcedit.jpg>])
+ [13] [14 <./figs/myoglobin.jpg> <./figs/mcedit.jpg>])
 (./timeline.tex) (./priornsf.tex [15]) [16] (./main.bbl [17] [18]
 Missing character: There is no ‚ in font ptmri7t!
 Missing character: There is no Ä in font ptmri7t!
@@ -807,21 +799,20 @@ Missing character: There is no ì in font ptmri7t!
 Missing character: There is no ‚ in font ptmri7t!
 Missing character: There is no Ä in font ptmri7t!
 Missing character: There is no ì in font ptmri7t!
- [19]
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ≥ in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ≥ in font ptmr7t!
-)
+ [19])
 [20] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 12911 strings out of 492995
- 226019 string characters out of 6132704
- 368839 words of memory out of 5000000
- 16264 multiletter control sequences out of 15000+600000
+ 12910 strings out of 492995
+ 226007 string characters out of 6132704
+ 368831 words of memory out of 5000000
+ 16263 multiletter control sequences out of 15000+600000
  64897 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,10n,42p,10371b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,42p,10371b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.
 enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex
@@ -832,7 +823,7 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 3478106 bytes).
+Output written on main.pdf (20 pages, 3477377 bytes).
 PDF statistics:
  176 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams

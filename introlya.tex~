@@ -10,7 +10,7 @@ An idealized test was carried out in C18 using using a mock high
 resolution angular grid of quasars (of order arcminute separ\ ation)
 and a linear theory foreground density field. Standard quadratic
 estimators (e.g., \cite{okamoto}) were used to successfully
-reconstruct images of the foreground mass distribution. In the work
+reconstruct images of the foreground mass. In the work
 proposed here we will expand the realism of such tests and make
 measurements on real data. Enough work has been done to  date on this
 source that this is a relatively low risk project. There is still the
@@ -95,9 +95,9 @@ angles.
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.33]{figs/lensdiagram.eps}
+    \includegraphics[scale=0.3]{figs/lensdiagram.eps}
     \hspace{1cm}
-    \includegraphics[scale=0.33]{figs/angdiag.eps}
+    \includegraphics[scale=0.3]{figs/angdiag.eps}
   \end{center}
   \caption{ \footnotesize
 {\bf Left panel: cartoon illustration of the geometry of \lya\ forest lensing.}

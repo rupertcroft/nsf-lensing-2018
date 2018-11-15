@@ -4,7 +4,7 @@ supported jointly by the grant an a TA position),
 the two PI/Co-PI faculty
 members, outreach coordinator Turnshek, and undergraduate researchers.
 
-\noindent{\bf Year 1}.  The initial mock
+\noindent{\bf Year 1}.  In the first year, the initial mock
 datasets will be generated, both sources and lenses.
 The PI and a graduate student
 will coordinate and will be responsible for the 
@@ -18,10 +18,10 @@ plans, build the worlds with the
 PI and grad students and test them on local schools with UG students. 
 
 \noindent{\bf Year 2}:
-A graduate
+The graduate
 student will lead a study of systematic selection and 
 instrumental effects in the galaxy and forest
-mocks. The PI will assemble a dataset from
+mocks. The PI will assemble a dataset drawn from
 all SDSS eBOSS spectra taken up to that point, and start
 scaling up the estimator code to handle millions of sightlines .
   The Co-I, graduate student and undergraduates will investigate

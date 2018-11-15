@@ -80,22 +80,23 @@ quasars and galaxies. Simulating the forest  involves resolving scales as
 small as the pressure smoothing scale ($\sim 100 \kpc$, \cite{peeples10}) while
 incorporating large scale modes on scales of tens of $\hmpc$.
 We will model the forest using the following
-three techniques which have different
+ techniques which have different
 strengths.
 
-\subsubsection{Lognormal models}
+
+{\bf \underline{Lognormal models:}}
 In order to cover the largest volume, and make contiguous source
-fields with diameters spanning large fractions of the sky (relevant for
-surveys such as eBOSS and DESI), we will use lognormally transformed
+fields with diameters spanning large fractions of the sky,
+ we will use lognormally transformed
 linear density fields. This technique was introduced by \cite{bi1997}
 and has been shown to be a good appproximation to full hydrodynamic
 simulations for purposes such as measuring baryonic acoustic oscillations
 \cite{legoff}. Large-scale velocity fields will be included via the
 Zeldovich approximation, and thermal broadening added via a temperature
-density relation \cite{keating17}.
+density relation (\cite{keating17}).
 
-\subsubsection{Hydrodynamic simulations}
-Full hydrodynamic simulations will be useful to capture the effect of
+{\bf \underline{Hydrodynamic simulations:}}
+Full hydrodynamics  will be useful to capture the effect of
 small scale density fluctuations.
  Although volumes are relatively smaller
 than what can be achieved with lognormal fields, the differences stemming
@@ -110,18 +111,17 @@ The PI has run  a $400\hmpc$ simulation
 the Gadget-3 SPH code with full hydrodynamics, and this will be available to
 this project. The volume spans 5.5 degrees at $z=2.5$ and this is enough
 to simulate surveys several times larger than CLAMATO. Other
-simulations are available with additional physics activated (see Table 
+simulations are available with additional physics  (see Table 
 \ref{tab_runs})
 including star formation and black holes.
 
-\subsubsection{Combined models}
 By mapping sections of hydrodynamic simulations onto a much larger
 dark matter simulation (or even linear density fields) it is possible
 to accurately reproduce many of the features of the \lya\ forest
 in a larger hydrodynamic simulation. This
 technique was used successfully by \cite{croft2004} and developed in
 detail by \cite{peirani2014}. We have all the relevant 
-simulation ingredients and will adopt this approch.
+simulation ingredients and will adopt this approch as well
 
 \subsection{\lya\ forest source Mocks}
 \lya\ forest spectra will be made by integrating through the
@@ -167,7 +167,7 @@ Our main aim with the CMB time delay lensing probe is to make predictions
 for what will be possible with CMB S4 instruments. We will therefore
 simulate full sky CMB fields using HEALPix, as well as plane parallel
 source mocks which will be placed behind clusters in the lens simulations
-(below)
+(below). These mocks will help mitigate the biases that typically affect quadratic estimators.
 
 
 \subsection{Simulated lenses}

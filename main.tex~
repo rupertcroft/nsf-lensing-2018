@@ -134,7 +134,7 @@
 \baselineskip=11pt
 \def\msun{{\rm M_{\odot}}}
 
-\textheight=24.3cm
+\textheight=24.7cm
 \textwidth=16.8cm
 
 \begin{document}
@@ -159,7 +159,7 @@
 \input{simulations.tex}
 \input{estimators.tex}
 \input{observations.tex}
-\input{cosmology.tex}
+%\input{cosmology.tex}
 \input{broaderimpact.tex}
 \input{timeline.tex}
 \input{priornsf.tex}

@@ -151,7 +151,7 @@ the undeflected position, and the deflection angle $\vec
 {\delta\theta}$ is a function of $\vec\theta$ that depends on the mass
 distribution of the lens. For the purpose of this estimate, we assume a point mass
 lens, \be \vec{\delta\theta}(\vec\theta) =
-\vec\theta\,\frac{\theta_E^2}{\theta^2}. \ee For a lens a typical distance of 1 Gpc from us (and sources far behind),
+\vec\theta\,\frac{\theta_E^2}{\theta^2}. \ee For a lens a typical distance of 1 Gpc from us,
 the Einstein radius $\theta_E=40'' (M/2\times 10^{14}M_\odot)^{1/2}.$ 
 
 
@@ -165,12 +165,12 @@ between two positions $\vec\theta_ i$ and $\vec\theta_j$ is \be w^{\rm
   obs}(\vec\theta_i^{\rm obs},\vec\theta_j^{\rm obs}) = w(\vert
 \vec\theta _i^{\rm obs} - \vec{\delta\theta}(\vec\theta_i) -
 \vec\theta_j^{\rm obs} + \vec {\delta\theta}(\vec\theta_j)\vert).  \ee
-For the purposes of estimating the magnitude of this effect, we now
-make the approximation that the deflections are small, so the
-argument of $w$ on the right -hand side can be Taylor expanded. Note
+We now
+make the approximation that deflections are small, so 
+ $w$ on the right -hand side can be Taylor expanded. Note
 that this approximation is not essential, as in the case of CMB
 cluster lensing~\cite{Baxter:2014frs} we avoided it by using a likelihood approach, but
-this will be the first step in our program. Taylor expanding and dropping the $^{\rm obs}$ superscript on the angles leads to \bea
+this will be the first step. Taylor expanding and dropping the $^{\rm obs}$ superscript on the angles leads to \bea
 w^{\rm obs}(\vec\theta_i,\vec\theta_j) &=& w(\theta_{ij}) +
 w'(\theta_{ij})\left[ \vec{\delta\theta}(\vec\theta_i) -
 \vec{\delta\theta}(\vec\theta_j) \right]\cdot
@@ -195,19 +195,31 @@ expected number of galaxies in each pixel is equal to $n$ (i.e., it
 is assumed that the mask is trivial). This is the
 \citet{1993ApJ...412...64L} estimator, with an expectation value equal to
 \ec{taylor}.  As a first estimate, we neglect cosmic variance, so
-that the error on the estimator is simply Poisson noise: \be {\rm
-  Var}(\hat w) = \frac{1}{\bar n^2} .\ee The signal to noise squared
+that the error on the estimator is simply Poisson noise:  $Var(\hat w) = \frac{1}{\bar n^2}$. The signal to noise squared
 then is \be \left(\frac{S}{N}\right)^2 = \sum_{ij}
 \frac{\left(w'(\theta_{ij})f_{ij}\right )^2}{1/\bar n^2} .\ee
 
 
-To make an estimate of the signal to noise, we need to insert information about the angular correlation function and the background galaxy density.
-For these purposes, we follow Section 9 of the LSST Science Book and assume
-\be
-w(\theta) = 0.36 \left( \frac{1'}{\theta} \right)^{0.8} \, \frac{0.1}{\Delta z}.\eql{wlsst}
-\ee
-As an estimate of the current capabilities, we take the source galaxies in DES in the redshift bin $0.6<z<0.9$ with their number density of 1.5 per square arcminute. As a sanity check, the slope and amplitude in \ec{wlsst} are consistent with the latest DES measurements \citep{Elvin-Poole:2017xsf} when projected to the source galaxy redshift width and bias. 
-In this simple example of a point mass, the signal falls off rapidly, so the estimate excludes regions close to the center to be conservative (these are the regions most likely to be impacted by contamination from cluster galaxies), but more realistic profiles will likely get more of the signal from galaxies out to radii similar to those used for shapes (~$\sim 5')$. The key advantage of this technique is that the signal depends on the number of pairs, so the signal to noise scales as $n$ not as the shape measurements, which scale as $n^{1/2}$, 
+
+
+To make an estimate of the signal to noise, we need the angular
+correlation function and the background galaxy density.  For these
+purposes, we follow Section 9 of the LSST Science Book and assume \be
+w(\theta) = 0.36 \left( \frac{1'}{\theta} \right)^{0.8} \,
+\frac{0.1}{\Delta z}.\eql{wlsst} \ee As an estimate of the current
+capabilities, we take the source galaxies in DES  redshift bin
+$0.6<z<0.9$ with number density 1.5 per square arcminute. As
+a sanity check, the slope and amplitude in \ec{wlsst} are consistent
+with the latest DES measurements \citep{Elvin-Poole:2017xsf} when
+projected to the source galaxy redshift width and bias.  In this
+simple example of a point mass, the signal falls off rapidly, so the
+estimate excludes regions close to the center to be conservative
+(regions most likely to be impacted by contamination
+from cluster galaxies), but more realistic profiles will likely get
+more of the signal from galaxies out to radii similar to those used
+for shapes (~$\sim 5')$. The key advantage of this technique is that
+the signal depends on the number of pairs, so the signal to noise
+scales as $n$ not as the shape measurements, which scale as $n^{1/2}$,
 %Fig.~\rf{fthij} shows $f_{ij}/\theta_{ij}$ ( which multiplies
 %$dw/d\ln(\theta)$ in the sum for all pairs of pixels. Of course pixels
 %closest to the center of the cluster contribute the most to the signal
