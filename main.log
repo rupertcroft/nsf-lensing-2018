@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 NOV 2018 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 NOV 2018 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -684,7 +684,7 @@ Package pdftex.def Info: figs/angdiag-eps-converted-to.pdf used on input line 6
  [3 <./figs/lensdiagram-eps-converted-to.pdf> <./figs/angdiag-eps-converted-to.
 pdf>]
 
-LaTeX Warning: Command \c invalid in math mode on input line 129.
+LaTeX Warning: Command \c invalid in math mode on input line 125.
 
 ) (./introgalxi.tex <figs/clusterfig.jpg, id=62, 874.26625pt x 567.11874pt>
 File: figs/clusterfig.jpg Graphic file (type jpg)
@@ -791,8 +791,8 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- [13] [14 <./figs/myoglobin.jpg> <./figs/mcedit.jpg>])
-(./timeline.tex) (./priornsf.tex [15]) [16] (./main.bbl [17] [18]
+ [13]) (./timeline.tex [14 <./figs/myoglobin.jpg> <./figs/mcedit.jpg>]) (./prio
+rnsf.tex) [15] (./main.bbl [16] [17]
 Missing character: There is no ‚ in font ptmri7t!
 Missing character: There is no Ä in font ptmri7t!
 Missing character: There is no ì in font ptmri7t!
@@ -803,8 +803,8 @@ Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ≥ in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ≥ in font ptmr7t!
- [19])
-[20] (./main.aux) ) 
+ [18]) [19]
+(./main.aux) ) 
 Here is how much of TeX's memory you used:
  12910 strings out of 492995
  226007 string characters out of 6132704
@@ -813,20 +813,20 @@ Here is how much of TeX's memory you used:
  64897 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,42p,10371b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.
-enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex
-9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 3477377 bytes).
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (19 pages, 3476260 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 173 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

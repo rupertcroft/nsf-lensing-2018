@@ -61,6 +61,30 @@ CMB, enabling analyses to be free of uncertainties in the redshift
 distribution of sources which affect galaxy weak lensing studies
 \citep{hearin2010}.
 
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.3]{figs/lensdiagram.eps}
+    \hspace{1cm}
+    \includegraphics[scale=0.3]{figs/angdiag.eps}
+  \end{center}
+  \caption{ \footnotesize
+{\bf Left panel: cartoon illustration of the geometry of \lya\ forest lensing.}
+Due to lensing by the foreground object at redshift $z_{L}$, the 
+angular position of a quasar at redshift $z=z_{Q}$ is 
+deflected by an angle $\beta$. The associated
+\lya\ forest pixels are also lensed, deflected by an angle smaller than 
+$\beta$ 
+(which depends on the angular size distance to the absorption in the pixel).
+{\bf Right panel: lensing deflection for a single \lya\ forest pixel.}
+The deflection angle for the backlight ($\beta_{1}$) is different 
+from that for the \lya\ forest absorption    ($\beta_{2}$) because they are 
+at different redshifts (and                       therefore angular size distances).
+           }
+  \label{cartoon}
+\end{figure}
+
+
+
 \subsubsection{Lenses for the forest}
 
 The \lya\ forest at redshift $z_{s}$ is lensed by the matter
@@ -92,28 +116,6 @@ forest pixel and show the relationship to the unlensed angular
 positions of both. The pixel and the backlight are at different
 angular size distances, and so are displaced on the sky by different
 angles.
-
-\begin{figure}
-  \begin{center}
-    \includegraphics[scale=0.3]{figs/lensdiagram.eps}
-    \hspace{1cm}
-    \includegraphics[scale=0.3]{figs/angdiag.eps}
-  \end{center}
-  \caption{ \footnotesize
-{\bf Left panel: cartoon illustration of the geometry of \lya\ forest lensing.}
-Due to lensing by the foreground object at redshift $z_{L}$, the 
-angular position of a quasar at redshift $z=z_{Q}$ is 
-deflected by an angle $\beta$. The associated
-\lya\ forest pixels are also lensed, deflected by an angle smaller than 
-$\beta$ 
-(which depends on the angular size distance to the absorption in the pixel).
-{\bf Right panel: lensing deflection for a single \lya\ forest pixel.}
-The deflection angle for the backlight ($\beta_{1}$) is different 
-from that for the \lya\ forest absorption    ($\beta_{2}$) because they are 
-at different redshifts (and                       therefore angular size distances).
-           }
-  \label{cartoon}
-\end{figure}
 
 
 If the lensing deflections are small
